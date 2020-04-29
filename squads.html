@@ -7,15 +7,16 @@
 <img src="header.jpg" class="header">
 
 
+
  <div id="nav">
  <ul id="horizontal">
- <li><a href="index.html">HOME</a></li>
-  <li><a href="latest.html">LATEST</a></li>
-  <li><a href="div1.html">DIV1</a></li>
-  <li><a href="div2.html">DIV2</a></li>
-  <li><a href="gotm.html">GOTM</a></li>
-  <li><a href="awards.html">AWARDS</a></li>
-  <li><a href="squads.html">SQUADS</a></li>
+ <li><a class="one" href="index.html">HOME</a></li>
+  <li><a class="one" href="latest.html">LATEST</a></li>
+  <li><a class="one" href="div1.html">DIV1</a></li>
+  <li><a class="one" href="div2.html">DIV2</a></li>
+  <li><a class="one" href="gotm.html">GOTM</a></li>
+  <li><a class="one" href="awards.html">AWARDS</a></li>
+  <li><a class="current" href="squads.html">SQUADS</a></li>
 </ul>
  </div>
  
@@ -57,6 +58,22 @@ Top: -10px;
 Top: -30px;
    }
 
+ a.one:link {
+  color white;
+  text-decoration:none;
+ }
+a.one:visited {
+ color: #4da6ff;
+ text-decoration:none;
+ } 
+  a.one:hover {
+  color:#000080;
+  text-decoration:none;
+ } 
+ a.current:visited {
+  color:#E20178;
+  text-decoration:under
+ }
 
 
    
