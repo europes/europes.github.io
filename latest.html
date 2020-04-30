@@ -27,8 +27,8 @@
 <img src="leao.jpg" class="leao"> 
   </div>
   
-  <a class="article" href="Article1.html">Vascos late Voyage</a><p>An incredible evening full of twists and turns as the tide was changing waves
-  back and forth in this goalfest spectular game....read more.</p>
+  <a class="article" href="Article1.html">Vascos late Voyage</a><a class="text" href="Article1.html">An incredible evening full of twists and turns as the tide was changing waves
+  back and forth in this goalfest spectular game....read more....</a>
 <br>
 
 
@@ -118,7 +118,17 @@ a.article:visited {
   text-align: left;
  }
 
- p {
-       line-height: 30px;
-  font-size: 200%;
-      }
+a.text {
+ font-size:200%;
+ text-decoration:none;
+ }
+ 
+ a.text:link {
+  color: white;
+   }
+a.text:visited {
+ color: #4da6ff;
+  } 
+  a.text:hover {
+  color:#000080;
+   } 
