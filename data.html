@@ -21,7 +21,7 @@
 
 
  <nav>
- <ul class="horizontal">
+ <ul id="horizontal">
  <li><a class="one" href="index.html">HOME</a></li>
   <li><a class="one" href="latest.html">LATEST</a></li>
   <li><a class="current" href="data.html">DATA</a></li>
@@ -46,8 +46,8 @@
   
 </html>
 
-
-<style type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="horizontal-menu.css" rel="stylesheet">
 
 html { 
  background-image: url(peswback.png);
@@ -72,17 +72,29 @@ Position: relative;
 Top: -10px;
 }
  
-.horizontal  {
-  display: inline;
-  margin-right: 30px;
-		  float: left;
-  color: white;
- Position: relative;
-	top:-30px;
-	list-style-type: none;
-	font-size: 200%; 
-	   }
- 
+ul {
+	list-style: none;
+}
+
+#horizontal{
+	margin: 20px;
+	width: 100%;	
+}
+
+#horizontal li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+
+#horizontal a {
+	display:block;
+	padding:3px;
+	text-decoration:none;	
+	color:#009;
+}
+			
 	 
 
 	
