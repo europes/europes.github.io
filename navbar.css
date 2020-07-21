@@ -43,26 +43,24 @@ Top: -30px;
 	
  
  a.one:link {
-  color: #595959;
+  color: white;
   text-decoration:none;
 	  font-weight: none;
  }
 a.one:visited {
- color: #595959;
+ color: white;
  text-decoration:none;
 	 font-weight: none;
  } 
   a.one:hover {
-  color:#595959;
-  text-decoration:underline;
-	   font-weight: none;
- } 
- a.current:visited {
-  color:black;	
+  color:white;
   text-decoration:underline;
 	   font-weight: bold;
-	
-	 
+ } 
+ a.current:visited {
+  color:white;	
+  text-decoration:none;
+	   font-weight: bold;	
  }
 
 
