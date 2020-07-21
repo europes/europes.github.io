@@ -3,22 +3,43 @@ background-color:#5F9EA0;
 width: 100%;
 	position:relative;
 	color:black;
-Top: -30px;
-	font-family: colo-pro;
+Top: -30px;	
 	border-bottom: 2px solid black;
 	border-top: 2px solid black;
 	text-align:center;
-		}
-    
-    
-    #horizontal li {
-	display:inline;
-			font-size:170%;	
-	padding-right:20px;
-		
+			}
+	
+
+
+#horizontal li .one {
+				font-size:180%;	
+	padding: 4px 20px;
+	margin: 0px 5px;		
 	text-align:center;
+	 border: 1px solid black;
+	box-shadow: -4px 4px black;
+		
+		background-color:#2a475e;
+		border-radius:10px 10px;
+	opacity:50%;
 	}
 	
+#horizontal li  .current {
+				font-size:180%;	
+	padding: 4px 20px;
+	margin: 0px 5px;		
+	text-align:center;
+	 border: 1px solid black;
+	box-shadow: -4px 4px black;
+		
+		background-color:#2a475e;;
+		border-radius:10px 10px;
+	opacity:100%;
+	}
+	
+#horizontal li  {
+	display:inline;
+	}
 	
  
  a.one:link {
