@@ -20,17 +20,31 @@
 	</head>
 
 
- <div id="nav">
- <ul id="horizontal">
- <li><a class="current" href="index.html">HOME</a></li>
-  <li><a class="one" href="latest.html">LATEST</a></li>
-  <li><a class="one" href="data.html">DATA</a></li>
-    <li><a class="one" href="/gotm/index.html">GOTM</a></li>
-  <li><a class="one" href="/awards/index.html">AWARDS</a></li>
-  <li><a class="one" href="squads.html">SQUADS</a></li>
-</ul>
- </div>
-	
+<div id="menu">
+
+<div class="dropdown box box1">
+<button class="dropbtn">Dropdown &#8595;
+</button>
+ <div class="dropdown-content">
+ <a href="index.html">HOME</a>
+  <a  href="latest.html">LATEST</a>
+  <a  href="data.html">DATA</a>
+    <a href="/gotm/index.html">GOTM</a>
+  <a  href="/awards/index.html">AWARDS</a>
+  <a  href="squads.html">SQUADS</a>
+  </div>  
+  </div> 
+
+
+
+<div class="box box2">EURO PES SUPER LEAGUE</div>
+<div></div>
+
+<div class="box box4">Discord and Twitter</div>
+
+
+</div>
+
 	
 	<body>
 		
@@ -100,6 +114,72 @@ html
     font-family: Arial, Helvetica, sans-serif;
 	color:black;
 }
+	
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background: blue;
+  padding: 14px 16px;  
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+ 
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+	
+ 
+}
+
+.dropdown-content a {
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#menu {
+display: flex;
+width:100%;
+background-color:red;
+align-items:center;
+justify-content:space-between;
+flex-wrap:nowrap
+flex: 1 1 auto;
+}
+
+
+.box {
+display:flex;
+}
+
+.box4 {
+width:20%;
+}
+
+
+	
+	
 	
 
 .container  {
