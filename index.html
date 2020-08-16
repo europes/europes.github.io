@@ -50,13 +50,14 @@
 	
 	<body>
 		<div class="pic">
+			
 			<img src="awards.png" class="central">
 		</div>
 		
-		<div>
-			<img src="d15.png">
-			<img src="d25.png">
-			<img src="d35.png">
+		<div id="leagues">
+			<div class="leagues league1><img src="d15.png"></div>
+		    <div class="leagues league2><img src="d25.png"></div>
+			<div class="leagues league3><img src="d35.png"></div>
 		</div>
 	
 		
@@ -214,8 +215,34 @@ text-align: center;
 	 }	
 	
 	
+#leagues {
+display: flex;
+width:110%;
+	margin-left:-10px;
+	top:
+justify-content:center;
+flex-wrap:nowrap;
+flex: 1 1 auto;
+	position:fixed;
+	height:100px;
+}		      
 	
-
+.leagues  {
+	display: flex;
+	}
+.leagues1  {
+	width: 33%;
+	}
+		
+		      .leagues2  {
+	width: 33%;
+	}
+		
+		      .leagues3  {
+	width: 33%;
+	}
+		
+		      
 	
   </style>
 	
