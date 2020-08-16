@@ -63,6 +63,7 @@ flex: 1 1 auto;
 	position:fixed;
 	height:160px;
 	bottom:180px;	
+	z-index:1;
 }
 
 
