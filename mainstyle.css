@@ -13,7 +13,7 @@ body
   border: none;
   outline: none;
   color: white;
-  background:#101010;
+  background:#181818;
   padding: 45px 10px;  
   margin: 0;
 }
@@ -27,7 +27,7 @@ body
   display: none;
   position: absolute;
 	top:160px;
-  background-color: #00111a; 
+  background-color: #000033;
 	
 }
 
