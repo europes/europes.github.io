@@ -28,6 +28,7 @@ body
   position: absolute;
 	top:160px;
   background-color: #333333; 
+	border-bottom: 1px solid black;
 }
 
 .dropdown-content a {
