@@ -13,13 +13,13 @@ body
   border: none;
   outline: none;
   color: white;
-  background: #000033;
+  background:#00111a;
   padding: 45px 10px;  
   margin: 0;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #000066;
+  background-color: #004266;
  
   }
 
@@ -27,7 +27,7 @@ body
   display: none;
   position: absolute;
 	top:160px;
-  background-color: #00004d; 
+  background-color: #00111a; 
 	
 }
 
@@ -42,7 +42,7 @@ body
 }
 
 .dropdown-content a:hover {
-  background-color:#000033;
+  background-color:#00324d;
 	
 }
 
