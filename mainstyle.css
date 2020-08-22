@@ -19,16 +19,14 @@ body
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #004266;
- 
+  background-color: #004266; 
   }
 
 .dropdown-content {
   display: none;
   position: absolute;
 	top:160px;
-  background-color: black;
-	
+  background-color: black;	
 }
 
 .dropdown-content a {
@@ -49,7 +47,6 @@ body
 	
 .dropdown:hover .dropdown-content {
   display: block;
-
 }
 
 #menu {
