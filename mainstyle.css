@@ -67,8 +67,7 @@ flex: 1 1 auto;
 
 
 .box {
-display:flex;
-	border:3px solid red;
+display:flex;	
 }
 
 .box4 {
