@@ -45,9 +45,8 @@
 	 
 	  <div class="center1">
 		
-<div class="news"><a href="article2.html"> <picture><source srcset="madrid.jpg/350x350" media="(max-width: 600px)"/>
-  <source srcset=""madrid.jpg/100x100" media="(min-width: 600px)"/>
-   <img src="madrid.jpg"></picture><h1>A look at the winners<br>and losers in EPSL<br>Season 2<br> </h1>  
+<div class="news">
+   <img class="respic" src="madrid.jpg"><h1>A look at the winners<br>and losers in EPSL<br>Season 2<br> </h1>  
 		(7/7/20)</a>   </div>
 
 	 	
@@ -112,9 +111,25 @@ color:white;
  
  .pic {
   Width:300px;
+  Height:250px;			
+    } 
+
+		
+@media screen and (min-width: 992px) {
+.respic {
+  Width:300px;
   Height:250px;	
     }
+}		
+		
 
+@media screen and (max-width: 992px) {
+.respic {
+  Width:375px;
+  Height:325px;	
+    }
+}			
+		
 .news {
 display:flex;
 	margin-right:5px;
