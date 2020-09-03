@@ -16,13 +16,13 @@ background-image: url("eurbak3.png");
   border: none;
   outline: none;
   color: white;
-  background: #202020;
+  background: #383838;
   padding: 25px 10px;  
   margin: 0;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: black; 
+  background-color: #686868;
   }
 
 .dropdown-content {
