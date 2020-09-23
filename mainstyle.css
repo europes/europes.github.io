@@ -15,7 +15,7 @@ background-image: url("eurbak3.png");
   font-size: 28px;  
   border: none;
   outline: none;
-  color: white;
+  color: black;
   background: #383838;
   padding: 25px 10px;  
   margin: 0;
@@ -58,9 +58,10 @@ display: flex;
 width:110%;
 	margin-left:-10px;
 	top:-10px;
-background-color:black;
+background-color:white;
 align-items:center;
 justify-content:space-between;
+	color:black;
 flex-wrap:nowrap;
 flex: 1 1 auto;
 	position:fixed;
@@ -104,7 +105,7 @@ width:17%;
 	
 h2 {
 	  font-size: 32px;  	
-	color:white;
+	color:black;
 	
 	}
 
