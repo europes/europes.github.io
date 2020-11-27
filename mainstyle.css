@@ -30,8 +30,8 @@ background-image: url("eurbak3.png");
 .dropdown-content {
   display: none;
   position: absolute;
-	top:120px;
-  background-color: black;
+	top:40px;
+  background-color: #0d0d0d;
 	padding-right:500px;
 }
 
