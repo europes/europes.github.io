@@ -16,8 +16,9 @@ background-image: url("eurbak3.png");
   border: none;
   outline: none;
   color: white;
-  background:#101010;
-  padding: 25px 10px;  
+  background:black;
+  padding: 25px 10px; 
+	margin-left:20px;
   margin: 0;
 }
 
@@ -29,17 +30,18 @@ background-image: url("eurbak3.png");
   display: none;
   position: absolute;
 	top:120px;
-  background-color: #080808;	
+  background-color: black;
+	padding:500px;
 }
 
 .dropdown-content a {
-    color: white;
+    color: gold;
   padding: 35px 20px;
 	font-size: 55px; 
   text-decoration: none;
   display: block;
   text-align: left;
-	border-top:1px dotted white;
+	
 	
 }
 
