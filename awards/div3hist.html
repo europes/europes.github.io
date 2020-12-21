@@ -39,17 +39,23 @@
 <body>
 
 
-<div class="central2">	
-<h1>AWARDS HISTORY</h1>
 
-<a href="individual.html" class="links">INDIVIDUAL</a>    
-<a href="div1hist.html" class="links">D1</a> 
-	<a href="div2hist.html" class="links">D2</a> 
-	<a href="div3hist.html" class="linksnow">D3</a>
-<a href="cuphist.html" class="links">CUPS</a> 
-</div>
-
-
+<div class="central1">
+	<h1>D2 HISTORY</h1>
+		</div>
+	
+	<div class="central">	
+<table class="black">
+		<tr>
+		<th class="black"><a href="individual.html" class="links">INDIVIDUAL</a></th>
+		<th class="black"><a href="div1hist.html" class="links">DIV 1</a></th>
+		<th class="black"><a href="div2hist.html" class="links">DIV 2</a></th>
+		<th class="black"><a href="div3hist.html" class="links">DIV 3</a></th>
+		<th class="black"><a href="cuphist.html" class="links">CUPS</a></th>
+		</tr>
+		</table>
+</div>	
+	 
 	 <br>
 	<br>
 	
@@ -102,82 +108,46 @@ html
 }
 
 
-.header{
-  width: 100%;
-  height: 350px; 
-Position: relative;
-Top: -20px;
-		
- }
-   
-#nav {
-background-color: #1b2838;
-padding-top: 15px;	
-width: 100%;
-Position: relative;
-Top: -30px;	
-}
-
-#horizontal{	
-		text-align:center;	
-}
-
-#horizontal li {
-	display:inline;
-	padding-right:20px;
-		font-size:125%;	
-	Position: relative;
-	top:-20px;	
-	}
-	
-	
- 
- a.one:link {
-  color: white;
-  text-decoration:none;
-	  font-weight: bold;
- }
-a.one:visited {
- color: white;
- text-decoration:none;
-	 font-weight: bold;
- } 
-  a.one:hover {
-  color:#E20178;
-  text-decoration:none;
-	   font-weight: bold;
- } 
- a.current:visited {
-  color:#66c0f4;
-  text-decoration:under;
-	   font-weight: bold;
- }
-
-
-
-
- .central2 {
+table.black {
+margin:auto auto;
 text-align: center;
-		top-margin:200px;
- }
-  
+		width:80%;		
+}
+
+th.black  {
+border:1px solid white;
+text-decoration: none;
+background:black;		
+}
+
+		th.black:hover {
+		background: white;
+		display:block;
+		}
+
+th.black a {
+text-decoration: none;
+		display:block;
+}
+
+th.black a:hover {
+text-decoration: none;
+		color:black;
+		display:block;
+}		
 
 
- 
  .central {
 text-align: center;
+		margin: auto auto;
  }
 
-
+ 
+ .central1 {
+text-align: center;
+		margin-top:200px;
+ }
        
-    .awards{
-width: 80%;
-height:450px;
-margin-top:20px;
-	   
-
-}
-   
 
 
 table {
@@ -253,6 +223,7 @@ a.btop:visited {
   color:#000080;
    } 
 	
+	
 .links {
 color:#66c0f4;
 	font-size:130%;
@@ -261,18 +232,15 @@ color:#66c0f4;
 	
 a.links {
 	color:white;
+		text-decoration:none;
 	
 	}
 	
 	a.links:hover  {
-color:grey;
+color:white;
 	}
 	
 	a.links:active {
 		color:blue;
 	}
-	
- a.linksnow:visited {
-  color:#66c0f4;
-	}	
 </style>
