@@ -129,12 +129,12 @@ h2 {
 @media(min-width: 1000px)  {
 	
 	.dropdown-content a {  
-	font-size: 42px; 
+	font-size: 32px; 
   
 }
 	
 .dropdown-content {
-	top:20px;
+	top:15px;
  
 }
 	
