@@ -69,8 +69,7 @@ flex: 1 1 auto;
 	position:fixed;
 	height:120px;
 	bottom:140px;	
-	z-index:1;
-	border-bottom: 1px solid gold;
+	z-index:1;	
 }
 
 
