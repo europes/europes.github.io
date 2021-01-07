@@ -29,7 +29,7 @@ background-image: url("eurbak3.png");
 .dropdown-content {
   display: none;
   position: absolute;
-	top:115px;
+	top:120px;
   background-color: #000033;
 	padding-right:20px;
 }
@@ -68,7 +68,7 @@ flex: 1 1 auto;
 	height:120px;
 	bottom:140px;	
 	z-index:1;	
-	box-shadow: 1px 5px #1a1a1a;
+	box-shadow: 1px 3px #333333;
 }
 
 
