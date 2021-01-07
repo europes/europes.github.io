@@ -22,7 +22,7 @@ background-image: url("eurbak3.png");
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #b3daff;
+  background-color: gold;
 	color: black;
   }
 
@@ -35,7 +35,7 @@ background-image: url("eurbak3.png");
 }
 
 .dropdown-content a {
-    color: #b3daff;
+    color: gold;
   padding: 15px 10px;
 	font-size: 62px; 
   text-decoration: none;
