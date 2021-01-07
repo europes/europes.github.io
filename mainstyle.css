@@ -22,8 +22,8 @@ background-image: url("eurbak3.png");
 }
 
 .dropdown:hover .dropbtn {
-  background-color: 
-	color:
+  background-color: #1a1a1a;
+	color: black;
   }
 
 .dropdown-content {
