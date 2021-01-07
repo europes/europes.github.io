@@ -74,7 +74,7 @@ flex: 1 1 auto;
 	height:120px;
 	bottom:140px;	
 	z-index:1;	
-	box-shadow: 1px 4px 2px #0000ff;
+	border-bottom: 2px solid white;
 }
 
 
