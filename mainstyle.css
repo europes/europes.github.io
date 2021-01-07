@@ -15,7 +15,7 @@ background-image: url("eurbak3.png");
   border: none;
   outline: none;
   color: white;
-  background:black; 
+  background:#0000ff; 
 	padding-left:20px;
 	padding-top:-10px;
   margin: 0;
@@ -30,7 +30,8 @@ background-image: url("eurbak3.png");
   display: none;
   position: absolute;
 	top:122px;
-  background-color: #000033;
+  background-color: #0000ff;
+	border-bottom: 1px dotted silver;
 	padding-right:20px;
 }
 
@@ -69,7 +70,7 @@ flex: 1 1 auto;
 	height:120px;
 	bottom:140px;	
 	z-index:1;	
-	box-shadow: 1px 4px 2px #262626;
+	box-shadow: 1px 4px 2px #0000ff;
 }
 
 
