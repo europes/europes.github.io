@@ -11,13 +11,14 @@ background-image: url("eurbak3.png");
 	
 
 .dropdown .dropbtn{
-  font-size: 28px;  
+  font-size: 32px;  
   border: none;
   outline: none;
   color: white;
   background:#0000ff; 
 	padding-left:20px;
-	padding-top:-10px;
+	padding-top:30px;
+	padding-bottom:30px;
   margin: 0;
 }
 
