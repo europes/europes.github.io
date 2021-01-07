@@ -68,6 +68,7 @@ flex: 1 1 auto;
 	height:120px;
 	bottom:140px;	
 	z-index:1;	
+	box-shadow: 1px 5px #1a1a1a;
 }
 
 
