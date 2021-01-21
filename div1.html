@@ -50,8 +50,8 @@
 <div class="central1">
 		
 		<div class="tab">
-		<button class="tablinks2" onclick="openDiv(event, 'Div4')">LEAGUE TABLES</button>
-		<button class="tablinks2" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
+		<button class="tablinks" onclick="openDiv(event, 'Div4')">LEAGUE TABLES</button>
+		<button class="tablinks1" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
 		</div>
 		
 <div class="tab" id="Div4">
@@ -77,7 +77,30 @@
   <img src="d3tab.png" class="table">
 
 </div>
+		
+		<div class="tab" id="Div5">
+  <button class="tablinks" onclick="openDiv(event, 'Div1')">DIV 1</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div2')">DIV 2</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div3')">DIV 3</button>
 </div>
+		
+		<div id="Div1" class="tabcontent">
+  <h3>DIVISION 1</h3>
+<img src="d1goals.png" class="table">
+
+</div>
+
+<div id="Div2" class="tabcontent">
+  <h3>DIVISION 2</h3>
+  <<img src="d2goals.png" class="table">
+
+</div>
+
+<div id="Div3" class="tabcontent">
+  <h3>DIVISION 3</h3>
+  <img src="d3goals.png" class="table">
+</div>
+		</div>
 
 <div class="footer">
   <a href="#top" class="btop">Back to Top</a>
@@ -283,11 +306,7 @@ function openDiv(evt, divName) {
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
-  }		
-		  tablinks2 = document.getElementsByClassName("tablinks2");
-  for (i = 0; i < tablinks2.length; i++) {
-    tablinks2[i].className = tablinks2[i].className.replace(" active", "");
-  }
+  }	
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
