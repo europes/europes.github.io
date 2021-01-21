@@ -51,7 +51,8 @@
 		
 		<div class="tab">
 		<button class="tablinks" onclick="openDiv(event, 'Div4')">LEAGUE TABLES</button>
-		<button class="tablinks" onclick="openDiv(event, 'Div5')">GOALSCORERS</button></div>
+		<button class="tablinks" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
+		</div>
 		
 <div class="tab" id="Div4">
   <button class="tablinks" onclick="openDiv(event, 'Div1')">DIV 1</button>
@@ -278,13 +279,13 @@ display:none;
 		
 		<script>
 function openDiv(evt, divName) {
-  var i, tabcontent, tablinks, tablinks2;
+  var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
   tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < items.length; i++) {
+  for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   document.getElementById(divName).style.display = "block";
