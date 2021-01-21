@@ -51,7 +51,7 @@
 		
 		
 <div class="tabhead">
-  <button class="tablinkshead" onclick="openMenu(event, 'tables')">Tables</button>
+  <button class="tablinkshead" onclick="openMenu(event, 'tables')" id="defaultOpen">Tables</button>
   <button class="tablinkshead" onclick="openMenu(event, 'goals')">Goalscorers</button>
 </div>
 
@@ -337,6 +337,7 @@ display:none;
 		
 		<script>
 		
+	document.getElementById("defaultOpen").click();
 		
 function openMenu(evt, menuName) {
   var i, tab, tablinkshead;
