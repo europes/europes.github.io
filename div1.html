@@ -51,8 +51,8 @@
 		
 		
 <div class="tabhead">
-  <button class="tablinkshead" onclick="openMenu(event, 'tables')" id="defaultOpen">Tables</button>
-  <button class="tablinkshead" onclick="openMenu(event, 'goals')">Goalscorers</button>
+  <button class="tablinkshead" onclick="openMenu(event, 'tables')" id="defaultOpen">TABLES</button>
+  <button class="tablinkshead" onclick="openMenu(event, 'goals')">GOALSCORERS</button>
 </div>
 
 
@@ -63,9 +63,9 @@
 </div>
 
 <div class="tab" id="goals">
-  <button class="tablinks" onclick="openDiv(event, 'Div4')">DIV1G</button>
-  <button class="tablinks" onclick="openDiv(event, 'Div5')">DIV2G</button>
-  <button class="tablinks" onclick="openDiv(event, 'Div6')">DIV3G</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div4')">DIV1</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div5')">DIV2</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div6')">DIV3</button>
 </div>
 
 <div id="Div1" class="tabcontent">
@@ -135,7 +135,9 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 28px;
+  font-size: 36px;
+		text-align:center;
+		margin:auto auto;
 }
 
 .tabhead button:hover {
