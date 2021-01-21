@@ -47,28 +47,31 @@
 
 
 
-<div class="central1"><h3> SUPER LEAGUE D1</h3>  
-<ul id="menus"><li><a href="div1.html"><img class="standout" width="210px" height="210px" src="sl1.png"></a></li>	
-		<li><a href="div2.html"><img class="press" width="190px" height="190px" src="\images\sl2logo.png"></a></li> 
-				
-		<li><a href="div3.html"><img class="press" width="170px" height="170px" src="\images\sl3logo.png"></a></li> </ul>
-	
-	<a href="https://app.doleague.com/en/championship/clasification/WahJEuvF9GjZAGsYlmB6" class="dolink"><img class="bord" src="dleague.png" height="50px" width="200px"></a>
-	<a href="#goals" class="goalslink"> <img class="bord" src="gboot.png" height="50px" width="100px"></a>
-		<br><br></div>
+<div class="central1"><h2>LEAGUE TABLES</h2>
 
-		<div class="central">
+<div class="tab">
+  <button class="tablinks" onclick="openDiv(event, 'Div1')">DIV 1</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div2')">DIV 2</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div3')">DIV 3</button>
+</div>
 
+<div id="div1" class="tabcontent">
+  <h3>DIVISION 1</h3>
 <img src="d1tab.png" class="table">
 
+</div>
 
+<div id="div2" class="tabcontent">
+  <h3>DIVISION 2</h3>
+  <<img src="d2tab.png" class="table">
 
+</div>
 
+<div id="div3" class="tabcontent">
+  <h3>DIVISION 3</h3>
+  <img src="d3tab.png" class="table">
 
-		<a id="goals" class="topgoals">  <img class="gboot" src="gboot.png" height="50px" width="100px"> </a>
-	
-<img src="d1goals.png" class="goals">
-
+</div>
 </div>
 
 <div class="footer">
@@ -83,6 +86,41 @@
 
 
 <style type="text/css">
+		
+		.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 
 .topgoals {
 		margin:20px;
@@ -233,3 +271,19 @@ display:none;
 		
 		
 		</style>
+		
+		<script>
+function openDiv(evt, divName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(divName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
