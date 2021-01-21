@@ -49,15 +49,23 @@
 
 <div class="central1">
 		
-		<div class="tab">
-		<button class="tablinks" onclick="openDiv(event, 'Div4')">LEAGUE TABLES</button>
-		<button class="tablinks" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
-		</div>
 		
-<div class="tab" id="Div4">
-  <button class="tablinks" onclick="openDiv(event, 'Div1')">DIV 1</button>
-  <button class="tablinks" onclick="openDiv(event, 'Div2')">DIV 2</button>
-  <button class="tablinks" onclick="openDiv(event, 'Div3')">DIV 3</button>
+<div class="tabhead">
+  <button class="tablinkshead" onclick="openMenu(event, 'tables')">Tables</button>
+  <button class="tablinkshead" onclick="openMenu(event, 'goals')">Goalscorers</button>
+</div>
+
+
+<div class="tab" id="tables">
+  <button class="tablinks" onclick="openDiv(event, 'Div1')">DIV1</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div2')">DIV2</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div3')">DIV3</button>
+</div>
+
+<div class="tab" id="goals">
+  <button class="tablinks" onclick="openDiv(event, 'Div1')">DIV1G</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div2')">DIV2G</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div3')">DIV3G</button>
 </div>
 
 <div id="Div1" class="tabcontent">
@@ -77,26 +85,21 @@
   <img src="d3tab.png" class="table">
 
 </div>
+	
 		
-		<div class="tab" id="Div5">
-  <button class="tablinks" onclick="openDiv(event, 'Div1')">DIV 1</button>
-  <button class="tablinks" onclick="openDiv(event, 'Div2')">DIV 2</button>
-  <button class="tablinks" onclick="openDiv(event, 'Div3')">DIV 3</button>
-</div>
-		
-		<div id="Div6" class="tabcontent">
+		<div id="Div1" class="tabcontent">
   <h3>DIVISION 1</h3>
 <img src="d1goals.png" class="table">
 
 </div>
 
-<div id="Div7" class="tabcontent">
+<div id="Div2" class="tabcontent">
   <h3>DIVISION 2</h3>
   <<img src="d2goals.png" class="table">
 
 </div>
 
-<div id="Div8" class="tabcontent">
+<div id="Div3" class="tabcontent">
   <h3>DIVISION 3</h3>
   <img src="d3goals.png" class="table">
 </div>
@@ -301,6 +304,22 @@ display:none;
 		</style>
 		
 		<script>
+		
+		
+function openMenu(evt, menuName) {
+  var i, tab, tablinkshead;
+  tab = document.getElementsByClassName("tab");
+  for (i = 0; i < tab.length; i++) {
+    tab[i].style.display = "none";
+  }
+  tablinkshead = document.getElementsByClassName("tablinkshead");
+  for (i = 0; i < tablinkshead.length; i++) {
+    tablinkshead[i].className = tablinkshead[i].className.replace(" active", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
 function openDiv(evt, divName) {
   var i, tabcontent, tablinks, tablinks2;
   tabcontent = document.getElementsByClassName("tabcontent");
