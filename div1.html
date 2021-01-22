@@ -341,10 +341,6 @@ display:none;
 		</style>
 		
 		<script>
-	
-		
-		onload.document.getElementById("Div1").click();
-	
 		
 function openMenu(evt, menuName) {
   var i, tab, tablinkshead;
@@ -373,4 +369,8 @@ function openDiv(evt, divName) {
   document.getElementById(divName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+			
+	$(document).ready(function(){
+    $('#Div1').trigger('click');
+});		
 </script>
