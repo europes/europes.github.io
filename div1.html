@@ -374,5 +374,7 @@ function openDiv(evt, divName) {
       document.getElementById("defaultOpen").click();
   }			
 			
+ window.onload =  document.getElementById(defaultOpen).style.display = "block";
+  evt.currentTarget.className += " active";
 	
 </script>
