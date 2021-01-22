@@ -390,16 +390,17 @@ function openDiv(evt, divName) {
 }
 
 document.getElementByClassName("sl1").onload = function() {myFunction()};
+		
 
 function myFunction() {		 document.getElementByClassName(sl1).style.display = "block";
-  evt.currentTarget.className += " active"; 
+element.classList.add("active");
 }
 		
 		
 		document.getElementByClassName("Div1").onload = function() {myFunction2()};
 
 function myFunction() {		 document.getElementByClassName(Div1).style.display = "block";
-  evt.currentTarget.className += " active";  
+  element.classList.add("active"); 
 }
 				
 
