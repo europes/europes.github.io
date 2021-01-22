@@ -51,13 +51,13 @@
 		
 		
 <div class="tabhead">
-  <button class="tablinkshead" onclick="openMenu(event, 'tables') id="defaultOpen">LEAGUE TABLES</button>
+  <button class="tablinkshead" onclick="openMenu(event, 'tables') >LEAGUE TABLES</button>
   <button class="tablinkshead" onclick="openMenu(event, 'goals')">TOP SCORERS</button>
 </div>
 
 
 <div class="tab" id="tables">
-  <button class="tablinks" onclick="openDiv(event, 'Div1')"><img class="standout"width="200px" height="200px" src="sl1.png"></button>
+  <button class="tablinks" onclick="openDiv(event, 'Div1')id="defaultOpen""><img class="standout"width="200px" height="200px" src="sl1.png"></button>
   <button class="tablinks" onclick="openDiv(event, 'Div2')"><img class="standout" width="200px" height="200px" src="\images\sl2logo.png"></button>
   <button class="tablinks" onclick="openDiv(event, 'Div3')"><img class="standout" width="200px" height="200px" src="\images\sl3logo.png"></button>
 </div>
@@ -342,19 +342,9 @@ display:none;
 		
 		<script>
 	  
-	   function tables () {
-  document.getElementById(tables).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-	  
-	  	    function Div1() {
-  document.getElementById(Div1).style.display = "block";
-  evt.currentTarget.className += " active";
-}  
-	  
-	window.onload = tables;
-	  window.onload = Div1;
-	
+	 " document.getElementById("defaultOpen").click(); "
+
+
 		
 function openMenu(evt, menuName) {
   var i, tab, tablinkshead;
