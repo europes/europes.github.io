@@ -341,6 +341,11 @@ display:none;
 		</style>
 		
 		<script>
+	  
+	    window.onload = function openMenu(evt, tables) {
+  document.getElementById(tables).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 		
 function openMenu(evt, menuName) {
   var i, tab, tablinkshead;
@@ -374,9 +379,6 @@ function openDiv(evt, divName) {
       document.getElementById("defaultOpen").click();
   }			
 
-	  window.onload = function openMenu(evt, tables) {
-  document.getElementById(tables).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+	
 
 </script>
