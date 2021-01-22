@@ -354,18 +354,6 @@ display:none;
 	 
 		
 		
-		document.getElementByClassName("sl1").onload = function() {myFunction()};
-
-function myFunction() {		 document.getElementByClassName(sl1).style.display = "block";
-  evt.currentTarget.className += " active"; 
-}
-		
-		
-		document.getElementByClassName("Div1").onload = function() {myFunction2()};
-
-function myFunction() {		 document.getElementByClassName(Div1).style.display = "block";
-  evt.currentTarget.className += " active";  
-}
 		
 
 		
@@ -400,7 +388,20 @@ function openDiv(evt, divName) {
   document.getElementById(divName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-			
+
+document.getElementByClassName("sl1").onload = function() {myFunction()};
+
+function myFunction() {		 document.getElementByClassName(sl1).style.display = "block";
+  evt.currentTarget.className += " active"; 
+}
+		
+		
+		document.getElementByClassName("Div1").onload = function() {myFunction2()};
+
+function myFunction() {		 document.getElementByClassName(Div1).style.display = "block";
+  evt.currentTarget.className += " active";  
+}
+				
 
 	
 
