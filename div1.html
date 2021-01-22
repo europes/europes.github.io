@@ -51,7 +51,7 @@
 		
 		
 <div class="tabhead">
-  <button class="tablinkshead" onclick="openMenu(event, 'sl1')"><img class="standout"width="250px" height="250px" src="sl1.png"></button>
+  <button class="tablinkshead" onclick="openMenu(event, 'sl1')" id="defaultOpen"><img class="standout"width="250px" height="250px" src="sl1.png"></button>
   <button class="tablinkshead" onclick="openMenu(event, 'sl2')"><img class="standout" width="250px" height="250px" src="\images\sl2logo.png"></button>
 		<button class="tablinkshead" onclick="openMenu(event, 'sl3')"><img class="standout" width="250px" height="250px" src="\images\sl3logo.png"></button>
 </div>
@@ -389,20 +389,7 @@ function openDiv(evt, divName) {
   evt.currentTarget.className += " active";
 }
 
-document.getElementByClassName("sl1").onload = function() {myFunction()};
-		
-
-function myFunction() {		 document.getElementByClassName(sl1).style.display = "block";
-element.classList.add("active");
-}
-		
-		
-		document.getElementByClassName("Div1").onload = function() {myFunction2()};
-
-function myFunction() {		 document.getElementByClassName(Div1).style.display = "block";
-  element.classList.add("active"); 
-}
-				
+document.getElementById("defaultOpen").click();				
 
 	
 
