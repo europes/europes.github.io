@@ -370,7 +370,9 @@ function openDiv(evt, divName) {
   evt.currentTarget.className += " active";
 }
 			
-	$(document).ready(function(){
-    $('#Div1').trigger('click');
-});		
+  window.onload = function() {
+      document.getElementsByClassName("tabcontent")[0].click();
+  }			
+			
+	
 </script>
