@@ -51,21 +51,26 @@
 		
 		
 <div class="tabhead">
-  <button class="tablinkshead" onclick="openMenu(event, 'tables')">LEAGUE TABLES</button>
-  <button class="tablinkshead" onclick="openMenu(event, 'goals')">TOP SCORERS</button>
+  <button class="tablinkshead" onclick="openMenu(event, 'sl1')"><img class="standout"width="200px" height="200px" src="sl1.png"></button>
+  <button class="tablinkshead" onclick="openMenu(event, 'sl2')"><img class="standout" width="200px" height="200px" src="\images\sl2logo.png"></button>
+		<button class="tablinkshead" onclick="openMenu(event, 'sl3')"><img class="standout" width="200px" height="200px" src="\images\sl3logo.png"></button>
 </div>
 
 
-<div class="tab" id="tables">
-  <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen"><img class="standout"width="200px" height="200px" src="sl1.png"></button>
-  <button class="tablinks" onclick="openDiv(event, 'Div2')"><img class="standout" width="200px" height="200px" src="\images\sl2logo.png"></button>
-  <button class="tablinks" onclick="openDiv(event, 'Div3')"><img class="standout" width="200px" height="200px" src="\images\sl3logo.png"></button>
+<div class="tab" id="sl1">
+  <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen">LEAGUE TABLE</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div4')">GOALSCORERS</button>
+  
 </div>
 
-<div class="tab" id="goals">
-  <button class="tablinks" onclick="openDiv(event, 'Div4')"><img class="standout" width="200px" height="200px" src="sl1.png"></button>
-  <button class="tablinks" onclick="openDiv(event, 'Div5')"><img class="standout" width="200px" height="200px"" src="\images\sl2logo.png"></button>
-  <button class="tablinks" onclick="openDiv(event, 'Div6')"><img class="standout" width="200px" height="200px" src="\images\sl3logo.png"></button>
+<div class="tab" id="sl2">
+ <button class="tablinks" onclick="openDiv(event, 'Div2')">LEAGUE TABLE</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
+</div>
+	
+	<div class="tab" id="sl3">
+  <button class="tablinks" onclick="openDiv(event, 'Div3')">LEAGUE TABLE</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div6')">GOALSCORERS</button>
 </div>
 
 <div id="Div1" class="tabcontent">  
