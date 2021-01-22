@@ -57,13 +57,13 @@
 
 
 <div class="tab" id="tables">
-  <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen" onload="show()">DIV1</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen">DIV1</button>
   <button class="tablinks" onclick="openDiv(event, 'Div2')">DIV2</button>
   <button class="tablinks" onclick="openDiv(event, 'Div3')">DIV3</button>
 </div>
 
 <div class="tab" id="goals">
-  <button class="tablinks" onclick="openDiv(event, 'Div4')" onload="show()">DIV1</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div4')">DIV1</button>
   <button class="tablinks" onclick="openDiv(event, 'Div5')">DIV2</button>
   <button class="tablinks" onclick="openDiv(event, 'Div6')">DIV3</button>
 </div>
@@ -342,8 +342,9 @@ display:none;
 		
 		<script>
 		
-		function show () {
-		document.getElementById("show").classList.add('first');
+		$(document).ready(function() {
+    $('.div1').addClass('active');
+});
 
 		
 	document.getElementById("defaultOpen").click();
