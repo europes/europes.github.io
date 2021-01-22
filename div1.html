@@ -346,6 +346,12 @@ display:none;
   document.getElementById(tables).style.display = "block";
   evt.currentTarget.className += " active";
 }
+	  
+	  	    window.onload = function openMenu(evt, div1) {
+  document.getElementById(tables).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+	
 		
 function openMenu(evt, menuName) {
   var i, tab, tablinkshead;
@@ -375,9 +381,6 @@ function openDiv(evt, divName) {
   evt.currentTarget.className += " active";
 }
 			
-  window.onload = function() {
-      document.getElementById("defaultOpen").click();
-  }			
 
 	
 
