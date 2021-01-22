@@ -342,15 +342,18 @@ display:none;
 		
 		<script>
 	  
-	    window.onload = function openMenu(tables) {
+	   function tables () {
   document.getElementById(tables).style.display = "block";
   evt.currentTarget.className += " active";
 }
 	  
-	  	    window.onload = function openMenu (Div1) {
+	  	    function Div1() {
   document.getElementById(tables).style.display = "block";
   evt.currentTarget.className += " active";
-}
+}  
+	  
+	window.onload = tables;
+	  window.onload = Div1;
 	
 		
 function openMenu(evt, menuName) {
