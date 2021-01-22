@@ -61,20 +61,38 @@
 		
 
 		<h4>LEAGUES</h4>
-<div class="flexy">
-		
-<div class="center"><a class="holink" href="div1.html"><img class="standout" width="150px" height="150px" src="sl1.png"></a>
-		<a class="holink" href="div1.html"><img src="d15.png" class="leagues2"></a>
-		</div>
 
 		
-<div class="center"><a class="holink" href="div2.html"><img class="standout" width="150px" height="150px" src="sl2logo.png" alt="sl1 data"></a>
-<img src="d25.png" class="leagues2">
-	</div>
-	
+<div class="center">
+	  
+<div class="tab" id="tables">
+  <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen"><img class="standout"width="200px" height="200px" src="sl1.png"></button>
+  <button class="tablinks" onclick="openDiv(event, 'Div2')"><img class="standout" width="200px" height="200px" src="\images\sl2logo.png"></button>
+  <button class="tablinks" onclick="openDiv(event, 'Div3')"><img class="standout" width="200px" height="200px" src="\images\sl3logo.png"></button>
+</div>
 		
-<div class="center"><a class="holink" href="div3.html"><img class="standout" width="150px" height="150px" src="sl3logo.png" alt="sl3 data"></a>
-<img src="d35.png" class="leagues2">
+<div id="Div1" class="tabcontent">
+  <h3>DIVISION 1</h3>
+<img src="div1tab.png" class="table">
+
+</div>
+
+<div id="Div2" class="tabcontent">
+  <h3>DIVISION 2</h3>
+  <img src="d2tab.png" class="table">
+
+</div>
+
+<div id="Div3" class="tabcontent">
+  <h3>DIVISION 3</h3>
+  <img src="d3tab.png" class="table">
+
+</div>
+		
+</div>
+
+		
+
 </div>
 		</div>
 		
@@ -96,6 +114,47 @@
 </html>
 
 <style type="text/css">
+		
+		
+		.tab {
+  overflow: hidden;
+  border: none;
+		background:transparent;
+		display:none;		
+		margin:auto auto;
+		text-align: center;				
+}
+
+
+.tab button {
+   background-color: transparent ;
+  outline: none;
+  cursor: pointer; 
+  transition: 0.3s; 
+		opacity:50%;
+		border:none;
+}
+
+.tab button:hover {
+  opacity: 80%;
+}
+
+
+.tab button.active {
+  opacity:100%;
+		background-color: transparent;
+		border:none;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+		
+		
 		
 
 .introd  {		
@@ -273,3 +332,26 @@ font-size: 3em;
 		
 		
   </style>
+
+		<script>
+		
+		
+		
+	document.getElementById("defaultOpen").click();
+		
+
+
+function openDiv(evt, divName) {
+  var i, tabcontent, tablinks, tablinks2;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }	
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(divName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
