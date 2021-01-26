@@ -47,6 +47,7 @@ background-image: url("eurbak3.png");
   position: absolute;
   top: -20px;
   left: 0px;
+	padding-bottom:20px;
   
   cursor: pointer;
   
@@ -113,9 +114,8 @@ background-image: url("eurbak3.png");
   position: absolute;
   width: 400px;
   margin: 100px 0 0 0px;
-  padding: 50px;
-  padding-top: 125px;
-  padding-right:100px;	
+  padding: 125px 100px 50px 70px;
+ 	
 	
   
   background: #ededed;
