@@ -27,7 +27,7 @@ background-image: url("eurbak3.png");
 #menuToggle a
 {
   text-decoration: none;
-  color: white;
+  color: black;
 	
   
   transition: color 0.3s ease;
@@ -47,7 +47,7 @@ background-image: url("eurbak3.png");
   position: absolute;
   top: -20px;
   left: 0px;
-	padding-bottom:20px;
+	padding-bottom:40px;
   
   cursor: pointer;
   
@@ -62,7 +62,7 @@ background-image: url("eurbak3.png");
   display: block;
   width: 50px;
   height: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
   position: relative;
   
   background: #cdcdcd;
@@ -92,7 +92,7 @@ background-image: url("eurbak3.png");
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: white;
 }
 
 
