@@ -15,8 +15,8 @@ background-image: url("eurbak3.png");
 {
   display: block;  
 	  position: relative;
-  margin-left: 50px;
-	top:50px;	
+  margin-left: 20px;
+	top:0px;	
   
   z-index: 1;
   
@@ -129,8 +129,8 @@ background-image: url("eurbak3.png");
 
 #navmenu li
 {
-  padding: 10px 0;
-  font-size: 3em;
+  padding: 15px 0;
+  font-size: 4em;
 }
 
 /*
