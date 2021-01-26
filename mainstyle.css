@@ -15,7 +15,8 @@ background-image: url("eurbak3.png");
 {
   display: block;  
   margin-left: 30px;
-	margin-top:0px;
+	margin-top:-20px;
+	margin-right:0px;
   
   z-index: 1;
   
@@ -44,8 +45,8 @@ background-image: url("eurbak3.png");
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
+  top: -20px;
+  left: 0px;
   
   cursor: pointer;
   
@@ -111,9 +112,9 @@ background-image: url("eurbak3.png");
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
+  margin: -130px 0 0 -50px;
   padding: 0px;
-  padding-top: 125px;
+  padding-top: 145px;
   
   background: #ededed;
   list-style-type: none;
