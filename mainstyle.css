@@ -111,9 +111,9 @@ background-image: url("eurbak3.png");
 {
   position: absolute;
   width: 300px;
-  margin: -0px 0 0 0px;
+  margin: -100px 0 0 -50px;
   padding: 0px;
-  padding-top: 0px;
+  padding-top: 125px;
   
   background: #ededed;
   list-style-type: none;
