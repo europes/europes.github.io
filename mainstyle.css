@@ -111,11 +111,11 @@ background-image: url("eurbak3.png");
 #navmenu
 {
   position: absolute;
-  width: 600px;
+  width: 400px;
   margin: -100px 0 0 0px;
   padding: 50px;
   padding-top: 125px;
-  padding-right:200px;	
+  padding-right:100px;	
 	
   
   background: #ededed;
