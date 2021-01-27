@@ -19,7 +19,7 @@ background-image: url("eurbak3.png");
   height: 36px;
   border: none;
   cursor: pointer;
-  background-color: transparent;
+  background-color: white;
   /* show the menu image */
   background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
   background-size: 100%;
@@ -28,6 +28,7 @@ background-image: url("eurbak3.png");
 .showClose {
   background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
 }
+
 .navbar {
   position: absolute;
   top: 0;
