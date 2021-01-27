@@ -19,12 +19,12 @@ menuLinks.forEach(
 var menu = document.getElementById('menu');
 window.onscroll = function () { 
     "use strict";
-    if (document.body.scrollTop >= 200 ) {
-        menu.classList.add("nav-colored");
-        menu.classList.remove("nav-transparent");
+    if (document.body.scrollTop >= 200 ) {   
+      menu.classList.add("nav-transparent");
+        menu.classList.remove("nav-colored");       
     } 
     else {
-        menu.classList.add("nav-transparent");
-        menu.classList.remove("nav-colored");
+      menu.classList.add("nav-colored");
+        menu.classList.remove("nav-transparent");
     }
 };
