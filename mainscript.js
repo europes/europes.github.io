@@ -16,7 +16,7 @@ menuLinks.forEach(
   }
 )
 
-Var menu = document.getElementById('menu');
+var menu = document.getElementById('menu');
 window.onscroll = function () { 
     "use strict";
     if (document.body.scrollTop >= 200 ) {
