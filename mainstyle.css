@@ -14,8 +14,8 @@ background-image: url("eurbak3.png");
   /* always keep ham on top of everything */
   z-index: 1000;
 	position:absolute;
-  top-margin: 20px;
-  left-margin: 20px;
+  top-margin: -20px;
+  left-margin: 50px;
   width: 56px;
   height: 56px;
   border: none;
@@ -27,8 +27,7 @@ background-image: url("eurbak3.png");
 }
 
 .showClose {
-  background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
-	background-color:white;
+  background-image: url("/cross.png");	
 }
 
 .navbar {
