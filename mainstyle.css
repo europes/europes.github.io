@@ -13,10 +13,10 @@ background-image: url("eurbak3.png");
   position: absolute;
   /* always keep ham on top of everything */
   z-index: 1000;
-  top: 20px;
-  left: 20px;
-  width: 36px;
-  height: 36px;
+  top-margin: 20px;
+  left-margin: 20px;
+  width: 46px;
+  height: 46px;
   border: none;
   cursor: pointer;
   background-color: white;
@@ -31,8 +31,8 @@ background-image: url("eurbak3.png");
 
 .navbar {
   position: absolute;
-  top: 0;
-  left: 0;
+  top-margin: 100px;
+  left: 0px;
   background: black;
   width: 400px;
 	padding-right:50px;
