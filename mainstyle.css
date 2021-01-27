@@ -34,6 +34,8 @@ background-image: url("eurbak3.png");
 	background-size:100%;
 	width: 55px;
   height: 55px;
+	margin-top: 27px;
+  margin-left: 27px;
 	z-index:500;
 }
 
