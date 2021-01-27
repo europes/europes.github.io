@@ -95,29 +95,19 @@ flex: 1 1 auto;
 display:flex;	
 }
 
-.box4 {
-width:51%;
-}
 
 .box3  {
-width:15%;
-	padding-top:15px;
-	
+width:20%;
+	margin-right:20px;	
 	}
 	
 .box2  {
-	width: 5%;
+	width: 80%;
 	}
 	
-.box5  {
+	
+.box1 {	
 	width:20%;
-	}
-	
-
-	
-.box1 {
-	
-	width:15%;
 }
 
 
@@ -128,15 +118,10 @@ h2 {
 	
 	}
 
-.pesfc {
-	margin-top:20px;
-}
 	
 .logo:hover {	
 	opacity: 0.5;
 	}	
-
-.material-icons.md-36 { font-size: 63px; }
 
 
 /* Below code to scale website for wider desktop screens */		
@@ -144,13 +129,7 @@ h2 {
 
 @media(min-width: 1000px)  {
 	
-	.dropdown-content a {  
-	font-size: 32px; 
-  
-}
 	
-.dropdown-content {
-	top:15px;
  
 }
 	
