@@ -22,7 +22,7 @@ background-image: url("eurbak3.png");
   cursor: pointer;
   background-color: white;
   /* show the menu image */
-  background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+  background-image: url("/menunav.png");
   background-size: 100%;
 }
 
