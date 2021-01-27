@@ -58,8 +58,14 @@ background-image: url("eurbak3.png");
 	font-size:4em;
 	text-decoration:none;
 	padding-bottom:15px;
+	list-style-type: none;
 }
 
+.navbar li a {
+	text-decoration:none;
+	color:white;
+	
+}
 	
 
 
