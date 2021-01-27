@@ -24,7 +24,7 @@ window.onscroll = function () {
         menu.classList.remove("nav-transparent");
     } 
     else {
-        myNav.classList.add("nav-transparent");
-        myNav.classList.remove("nav-colored");
+        menu.classList.add("nav-transparent");
+        menu.classList.remove("nav-colored");
     }
 };
