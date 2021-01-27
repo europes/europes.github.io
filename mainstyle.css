@@ -32,8 +32,9 @@ background-image: url("eurbak3.png");
 .showClose {
   background-image: url("/crossnav.png");
 	background-size:100%;
-	width: 80px;
-  height: 60px;
+	width: 70px;
+  height: 70px;
+	z-index:500;
 }
 
 .navbar {
