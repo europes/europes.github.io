@@ -16,8 +16,8 @@ background-image: url("eurbak3.png");
 	position:absolute;
   margin-top: 20px;
   margin-left: 20px;
-  width: 100px;
-  height: 80px;
+  width: 90px;
+  height: 70px;
   border: none;
   cursor: pointer;
     /* show the menu image */
@@ -32,8 +32,8 @@ background-image: url("eurbak3.png");
 .showClose {
   background-image: url("/crossnav.png");
 	background-size:100%;
-	width: 70px;
-  height: 70px;
+	width: 55px;
+  height: 55px;
 	z-index:500;
 }
 
