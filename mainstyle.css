@@ -14,7 +14,7 @@ background-image: url("eurbak3.png");
   /* always keep ham on top of everything */
   z-index: 1000;
 	position:absolute;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-left: 20px;
   width: 56px;
   height: 56px;
