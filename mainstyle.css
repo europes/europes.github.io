@@ -10,13 +10,13 @@ background-image: url("eurbak3.png");
 	}
 
 .ham {
-  position: absolute;
+  
   /* always keep ham on top of everything */
   z-index: 1000;
   top-margin: 20px;
   left-margin: 20px;
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
   border: none;
   cursor: pointer;
   background-color: white;
@@ -27,16 +27,16 @@ background-image: url("eurbak3.png");
 
 .showClose {
   background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+	background-color:white;
 }
 
 .navbar {
-  position: absolute;
-  top-margin: 100px;
+   top-margin: 120px;
   left: 0px;
   background: black;
   width: 400px;
 	padding-right:50px;
-  height: 700px;
+  height: 900px;
   overflow: hidden;
   color: white;
   /* hide the menu above the screen by default */
