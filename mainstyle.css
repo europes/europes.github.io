@@ -32,8 +32,9 @@ background-image: url("eurbak3.png");
 }
 
 .navbar {
+	position:absolute;
    top-margin: 130px;
-  left: 0px;
+  left-margin: 0px;
   background: black;
   width: 400px;
 	padding-right:50px;
