@@ -30,12 +30,15 @@ background-image: url("eurbak3.png");
 }
 
 .showClose {
-  background-image: url("/cross.png");	
+  background-image: url("/cross.png");
+	background-size:100%;
+	width: 80px;
+  height: 60px;
 }
 
 .navbar {
 	position:absolute;
-   margin-top: 130px;
+   margin-top: 120px;
 margin-left: 0px;
   background: black;
   width: 400px;
