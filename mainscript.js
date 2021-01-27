@@ -14,7 +14,7 @@ menuLinks.forEach(
   function(menuLink) { 
     menuLink.addEventListener("click", toggleHamburger) 
   }
-
+)
 
 Var menu = document.getElementById('menu');
 window.onscroll = function () { 
