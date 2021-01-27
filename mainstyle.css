@@ -78,7 +78,6 @@ width:110%;
 	margin-left:-10px;
 	top:-10px;
 background-color: black;
-align-items:center;
 justify-content:space-between;
 	color:black;
 flex-wrap:nowrap;
@@ -103,6 +102,7 @@ width:25%;
 	
 .box2  {
 	width: 50%;
+	margin-left:400px;
 	}
 	
 	
