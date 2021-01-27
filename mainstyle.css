@@ -14,8 +14,8 @@ background-image: url("eurbak3.png");
   /* always keep ham on top of everything */
   z-index: 1000;
 	position:absolute;
-  top-margin: -20px;
-  left-margin: 50px;
+  margin-top: 0px;
+  margin-left: 20px;
   width: 56px;
   height: 56px;
   border: none;
@@ -121,6 +121,10 @@ h2 {
 .logo:hover {	
 	opacity: 0.5;
 	}	
+
+.logo  {
+	margin-top:20px;
+}
 
 
 /* Below code to scale website for wider desktop screens */		
