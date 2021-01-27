@@ -50,6 +50,18 @@ background-image: url("eurbak3.png");
   transform: translateX(0);
 }
 
+.navbar ul {
+	margin-top:100px;
+}
+
+.navbar li {
+	font-size:4em;
+	text-decoration:none;
+	padding-bottom:15px;
+}
+
+	
+
 
 #menu {
 display: flex;
