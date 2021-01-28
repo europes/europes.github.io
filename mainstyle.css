@@ -14,7 +14,7 @@ background-image: url("eurbak3.png");
   /* always keep ham on top of everything */
   z-index: 1000;
 	position:absolute;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 20px;
   width: 100px;
   height: 100px;
@@ -134,7 +134,7 @@ h2 {
 	}	
 
 .logo  {
-	margin-top:50px;
+	margin-top:55px;
 }
 
 .nav-colored { opacity:100%;}
