@@ -44,11 +44,11 @@ background-image: url("eurbak3.png");
 
 .navbar {
 	position:absolute;
-   margin-top: 180px;
+   margin-top: 170px;
 margin-left: 0px;
   background: #000033;
-  width: 620px;	
-  height: 920px;
+  width: 600px;	
+  height: 900px;
 	z-index:200;
 
   color: white;
@@ -65,7 +65,7 @@ margin-left: 0px;
 
 .navbar ul {
 	margin-top:20px;
-	margin-right:10px;
+	padding-right:10px;
 }
 
 .navbar li {
@@ -75,12 +75,13 @@ margin-left: 0px;
 	padding-top:10px;
 	list-style-type: none;
 	border-top: 1px solid white;
-	margin-right:10px;
+	
 }
 
 .navbar li a {
 	text-decoration:none;
-	color:#ffff66;	
+	color:#ffff66;
+	padding-right:10px;
 }
 	
 
