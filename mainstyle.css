@@ -136,6 +136,7 @@ h2 {
 
 .logo  {
 	margin-top:55px;
+	box-shadow: 5px 5px grey;
 }
 
 .nav-colored { opacity:100%;}
