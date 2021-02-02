@@ -44,13 +44,14 @@ background-image: url("eurbak3.png");
 
 .navbar {
 	position:absolute;
-   margin-top: 170px;
+   margin-top: 165px;
 margin-left: 0px;
   background: #000033;
   width: 600px;	
-  height: 900px;
+  height: 895px;
 	z-index:200;
 	margin-right:10px;
+	border-top: 1px dotted white;
 
   color: white;
   /* hide the menu above the screen by default */
@@ -74,7 +75,7 @@ margin-left: 0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	border-top: 1px solid white;
+	border-bottom: 1px dotted white;
 	
 }
 
