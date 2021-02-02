@@ -44,9 +44,8 @@ background-image: url("eurbak3.png");
    margin-top: 180px;
 margin-left: 0px;
   background: #000033;
-  width: 600px;
-	padding-right:50px;
-  height: 900px;
+  width: 600px;	
+  height: 950px;
 padding-top:10px;
 	z-index:200;
 
@@ -67,9 +66,10 @@ padding-top:10px;
 }
 
 .navbar li {
-	font-size:3.5em;
+	font-size:4em;
 	text-decoration:none;
-	padding-bottom:15px;
+	padding-bottom:10px;
+	padding-top:10px;
 	list-style-type: none;
 	border-top: 1px solid white;
 }
