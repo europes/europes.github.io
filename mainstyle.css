@@ -67,9 +67,9 @@ padding-top:10px;
 }
 
 .navbar li {
-	font-size:4em;
+	font-size:3.5em;
 	text-decoration:none;
-	padding-bottom:20px;
+	padding-bottom:15px;
 	list-style-type: none;
 	border-top: 1px solid white;
 }
