@@ -166,8 +166,11 @@ h2 {
       background-color: #989898;
 		margin-bottom:0px;
 	margin-top:0px;
-     }		
+     }	
 
+.endarrow {
+	float:right;
+	}
 
 /* Below code to scale website for wider desktop screens */		
 
