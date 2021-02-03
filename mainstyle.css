@@ -47,11 +47,9 @@ background-image: url("eurbak3.png");
    margin-top: 180px;
 margin-left: 0px;
   background:#7092be;
-  width: 600px;	
+  width: 650px;	
   height: auto;
-	z-index:200;
-	margin-right:20px;
-	padding-right:20px;
+	z-index:200;		
 	margin-bottom:0px;	
 	
   color: white;
@@ -70,8 +68,7 @@ margin-left: 0px;
 margin-bottom:0px;
 		margin-top:0px;
 	padding-top:0px;
-	padding-right:20px;
-	margin-right:20px;
+	padding-right:20px;	
 }
 
 .navbar li {
@@ -80,14 +77,13 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	border-top: 1px solid  #6666ff;	
-	margin-right:20px;	
+	border-top: 1px solid #1a1aff;			
 }
 
 
 .navbar li a {
 	text-decoration:none;
-	color:#ccccff;	
+	color:white;	
 }
 	
 
@@ -176,7 +172,7 @@ h2 {
 
 .endarrow {
 	float:right;
-	color: #ccccff;
+	color: white;
 	}
 
 .epslhead {
