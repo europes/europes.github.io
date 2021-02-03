@@ -50,7 +50,7 @@ margin-left: 0px;
   width: 600px;	
   height: 905px;
 	z-index:200;
-	margin-right:10px;
+	
 	
 	
 
@@ -67,9 +67,9 @@ margin-left: 0px;
 }
 
 .navbar ul {
-	margin-top:20px;
+	margin-top:0px;
 	margin-right:20px;
-	margin-bottom:10px;
+	margin-bottom:0px;
 }
 
 .navbar li {
@@ -79,7 +79,7 @@ margin-left: 0px;
 	padding-top:10px;
 	list-style-type: none;
 	border-top: 1px solid  #6666ff;	
-	margin-right:10px;
+	
 	
 }
 
