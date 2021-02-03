@@ -27,15 +27,3 @@ window.onscroll = function () {
         menu.classList.remove("nav-transparent");
     }
 };
-
-var list = document.getElementById('list');
-window.onscroll = function () {     
-    if (document.body.scrollTop >= 200 ) {   
-      menu.classList.add("darktxt");
-        menu.classList.remove("lighttxt");       
-    } 
-    else {
-      menu.classList.add("lighttxt");
-        menu.classList.remove("darktxt");
-    }
-};
