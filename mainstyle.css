@@ -69,7 +69,7 @@ margin-left: 0px;
 margin-bottom:0px;
 		margin-top:0px;
 	padding-top:0px;
-	padding-right:20px;	
+		
 }
 
 .navbar li {
@@ -78,8 +78,7 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	border-top: 1px solid #4d79ff;	
-	margin-right:20px;
+	border-top: 1px solid #4d79ff;		
 }
 
 
