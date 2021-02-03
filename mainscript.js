@@ -28,14 +28,3 @@ window.onscroll = function () {
     }
 };
 
-var navtrans = document.getElementByClass('navbar');
-window.onscroll = function () {     
-    if (document.body.scrollTop >= 200 ) {   
-      menu.classList.add("nav-colored");
-        menu.classList.remove("nav-transparent");       
-    } 
-    else {
-      menu.classList.add("nav-colored");
-        menu.classList.remove("nav-transparent");
-    }
-};
