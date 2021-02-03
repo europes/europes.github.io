@@ -46,11 +46,12 @@ background-image: url("eurbak3.png");
 	position:absolute;
    margin-top: 173px;
 margin-left: 0px;
-  background:#000066;
+  background:#000080;
   width: 600px;	
   height: 905px;
 	z-index:200;
 	margin-right:10px;
+	border-top: 1px solid white;
 	
 
   color: white;
