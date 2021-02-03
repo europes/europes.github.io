@@ -52,7 +52,7 @@ margin-left: 0px;
 	z-index:200;
 	margin-right:20px;
 	padding-right:20px;
-	margin-bottom:0px;
+	margin-bottom:0px;	
 	
   color: white;
   /* hide the menu above the screen by default */
@@ -68,6 +68,10 @@ margin-left: 0px;
 
 .navbar ul {		
 margin-bottom:0px;
+		margin-top:0px;
+	padding-top:0px;
+	padding-right:20px;
+	margin-right:20px;
 }
 
 .navbar li {
@@ -77,10 +81,9 @@ margin-bottom:0px;
 	padding-top:10px;
 	list-style-type: none;
 	border-top: 1px solid  #6666ff;	
-	
-	
-	
+	margin-right:20px;	
 }
+
 
 .navbar li a {
 	text-decoration:none;
