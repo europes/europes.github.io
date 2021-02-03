@@ -17,11 +17,22 @@ menuLinks.forEach(
 )
 
 var menu = document.getElementById('menu');
-window.onscroll = function () { 
-    "use strict";
+window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
       menu.classList.add("nav-transparent");
         menu.classList.remove("nav-colored");       
+    } 
+    else {
+      menu.classList.add("nav-colored");
+        menu.classList.remove("nav-transparent");
+    }
+};
+
+var navtrans = document.getElementByClass('navbar');
+window.onscroll = function () {     
+    if (document.body.scrollTop >= 200 ) {   
+      menu.classList.add("nav-colored");
+        menu.classList.remove("nav-transparent");       
     } 
     else {
       menu.classList.add("nav-colored");
