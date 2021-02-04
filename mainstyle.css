@@ -144,7 +144,7 @@ h2 {
 
 .logo  {
 	margin-top:75px;
-	box-shadow: 4px 4px black;
+	box-shadow: -4px 4px black;
 }
 
 .nav-colored { opacity:100%;}
