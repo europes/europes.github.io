@@ -22,7 +22,7 @@ background-image: url("eurbak3.png");
   border: none;
   cursor: pointer;
     /* show the menu image */
-  background-image: url("/menunav.png");
+  background-image: url("/menunavbla.png");
 	background-size:100%;
 }
 
@@ -31,7 +31,7 @@ background-image: url("eurbak3.png");
 }
 
 .showClose {
-  background-image: url("/crossnav.png");
+  background-image: url("/crossnavgre.png");
 	background-size:100%;
 	width: 55px;
   height: 55px;
