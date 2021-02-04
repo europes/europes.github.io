@@ -143,8 +143,8 @@ h2 {
 	}	
 
 .logo  {
-	margin-top:55px;
-	box-shadow: 2px -2px black;
+	padding-top:65px;
+	box-shadow: 3px -3px black;
 }
 
 .nav-colored { opacity:100%;}
