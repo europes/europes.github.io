@@ -77,14 +77,14 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	border-top: 1px solid #4d79ff;	
+	border-top: 1px solid #cce0ff; 
 	margin-right:50px;
 }
 
 
 .navbar li a {
 	text-decoration:none;
-	color:#cce0ff;	
+	color:#4d79ff;	
 }
 	
 
@@ -143,7 +143,7 @@ h2 {
 	}	
 
 .logo  {
-	margin-top:55px;
+	margin-top:75px;
 	box-shadow: 2px -2px black;
 }
 
@@ -177,7 +177,8 @@ h2 {
 
 .endarrow {
 	float:right;
-	color: #cce0ff;
+	color: #4d79ff;	
+	
 	}
 
 .epslhead {
