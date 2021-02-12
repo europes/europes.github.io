@@ -23,7 +23,7 @@ background-image: url("uefablack.jpg");
   border: none;
   cursor: pointer;
     /* show the menu image */
-  background-image: url("../menunav.png");
+  background-image: url("../menunavbla.png");
 	background-size:100%;
 }
 
@@ -32,7 +32,7 @@ background-image: url("uefablack.jpg");
 }
 
 .showClose {
-  background-image: url("../blucross.png");
+  background-image: url("../crossnav.png");
 	background-size:100%;
 	width: 55px;
   height: 55px;
@@ -48,7 +48,7 @@ background-image: url("uefablack.jpg");
 	position:absolute;
    margin-top: 180px;
 margin-left: 0px;
-  background: black;
+  background: #0d0d0d;
   width: 650px;	
   height: auto;
 	z-index:200;		
@@ -78,14 +78,14 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	border-top: 1px solid #000066;; 
+	border-top: 1px solid #cccccc;;
 	margin-right:50px;
 }
 
 
 .navbar li a {
 	text-decoration:none;
-	color:  blue; 
+	color:  white; 
 }
 	
 
@@ -178,7 +178,7 @@ h2 {
 
 .endarrow {
 	float:right;
-	color:  blue; 	
+	color:  white; 	
 	
 	}
 
