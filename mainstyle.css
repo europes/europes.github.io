@@ -57,7 +57,7 @@ margin-left: 20px;
 	
   color: blue;
   /* hide the menu above the screen by default */
-  transform: translateX(-100%);
+  transform: translateX(-105%);
   /* transition adds a little animation when sliding in and out the menu */
   transition: transform 0.2s ease;
 }
