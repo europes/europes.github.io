@@ -46,8 +46,8 @@ background-image: url("uefablack.jpg");
 
 .navbar {
 	position:absolute;
-   margin-top: 0px;
-margin-left: -50px;
+   margin-top: 180px;
+margin-left: 20px;
   background: #0d0d0d;
   width: 100%;	
   height: auto;
@@ -57,14 +57,14 @@ margin-left: -50px;
 	
   color: blue;
   /* hide the menu above the screen by default */
-  transform: translateY(-100%);
+  transform: translateX(-100%);
   /* transition adds a little animation when sliding in and out the menu */
   transition: transform 0.2s ease;
 }
 
 .showNav {
   /* show the menu */
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 .navbar ul {		
@@ -79,7 +79,8 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	text-align:center;	
+	text-align:left;
+	border-top: 1px solid grey;
 }
 
 
