@@ -46,8 +46,8 @@ background-image: url("uefablack.jpg");
 
 .navbar {
 	position:absolute;
-   margin-top: 180px;
-margin-left: 0px;
+   margin-top: 0px;
+margin-left: -50px;
   background: #0d0d0d;
   width: 100%;	
   height: auto;
