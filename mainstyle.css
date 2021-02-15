@@ -51,14 +51,14 @@ background-image: url("uefablack.jpg");
 	border-bottom: 1px solid grey;	
 
   /* hide the menu above the screen by default */
-  transform: translateX(650px);
+  transform: translateX(100%);
   /* transition adds a little animation when sliding in and out the menu */
   transition: transform 0.2s ease;
 }
 
 .showNav {
   /* show the menu */
-  transform: translateX(0px);
+  transform: translateX(0);
 }
 
 .navbar ul {		
