@@ -64,7 +64,7 @@ margin-left: 40px;
 
 .showNav {
   /* show the menu */
-  transform: translateX(-90%);
+  transform: translateX(-85%);
 }
 
 .navbar ul {		
