@@ -18,7 +18,7 @@ background-image: url("uefablack.jpg");
 	position:absolute;
   margin-top: 45px;
   margin-right:50px;
-	margin-left:-30px;
+	margin-left:-40px;
   width: 100px;
   height: 100px;
   border: none;
@@ -48,7 +48,7 @@ background-image: url("uefablack.jpg");
 .navbar {
 	position:absolute;
    margin-top: 180px;
-margin-left: 40px;
+margin-left: 50px;
   background: #0d0d0d;
   width: 650px;	
   height: auto;
@@ -64,7 +64,7 @@ margin-left: 40px;
 
 .showNav {
   /* show the menu */
-  transform: translateX(-85%);
+  transform: translateX(-90%);
 }
 
 .navbar ul {		
