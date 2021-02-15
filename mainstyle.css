@@ -60,7 +60,7 @@ background-image: url("uefablack.jpg");
 
 .showNav {
   /* show the menu */
-  transform: translateX(-40%);
+  transform: translateX(-60%);
 }
 
 .navbar ul {		
