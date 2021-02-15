@@ -17,7 +17,7 @@ background-image: url("uefablack.jpg");
  	margin-left:70px;
   /* always keep ham on top of everything */
   z-index: 1000;	
-  margin-top: 40px;  
+  margin-top: 50px;  
   width: 100px;
   height: 100px;
   border: none;
@@ -36,7 +36,7 @@ background-image: url("uefablack.jpg");
 	background-size:100%;
 	width: 80px;
   height: 80px;
-	margin-top: 40px;  
+	margin-top: 70px;  
 	z-index:500;
 }
 
