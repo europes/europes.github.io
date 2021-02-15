@@ -17,14 +17,14 @@ background-image: url("uefablack.jpg");
  	margin-left:70px;
   /* always keep ham on top of everything */
   z-index: 1000;	
-  padding-top: 40px;  
+  margin-top: 40px;  
   width: 100px;
   height: 100px;
   border: none;
   cursor: pointer;
     /* show the menu image */
   background-image: url("../menublack.png");
-	background-size:cover;
+	background-size:100%;
 }
 
 .ham:focus{
@@ -33,10 +33,10 @@ background-image: url("uefablack.jpg");
 
 .showClose {
   background-image: url("../blackcross.png");
-	background-size:cover;
+	background-size:100%;
 	width: 80px;
   height: 80px;
-	padding-top: 40px;  
+	margin-top: 40px;  
 	z-index:500;
 }
 
