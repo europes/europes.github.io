@@ -46,7 +46,7 @@ background-image: url("uefablack.jpg");
 
 
 .navbar {
-	position:absolute;
+	
    margin-top: 180px;
 margin-left: 0px;
   background: #0d0d0d;
@@ -57,14 +57,14 @@ margin-left: 0px;
 	border-bottom: 1px solid grey;	
 
   /* hide the menu above the screen by default */
-  transform: translateX(+100%);
+  transform: translateX(+80%);
   /* transition adds a little animation when sliding in and out the menu */
   transition: transform 0.2s ease;
 }
 
 .showNav {
   /* show the menu */
-  transform: translateX(-100%);
+  transform: translateX(-80%);
 }
 
 .navbar ul {		
@@ -79,7 +79,7 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	text-align:right;
+	text-align:left;
 	border-top: 1px solid white;
 }
 
@@ -93,7 +93,7 @@ margin-bottom:0px;
 
 #menu {
 display: flex;
-width:100%;
+width:auto;
 	margin-left:0px;
 	top:-10px;
 background-color:black;
@@ -115,13 +115,12 @@ display:flex;
 }
 
 .box1 {	
-	width:15%;
+	width:20%;
 }
 
 .box2  {
-	width: 85%;
-	margin-top:40px;
-	margin-left:20px;
+	width: 80%;
+	margin-top:40px;	
 	}
 	
 .box3  {
@@ -186,7 +185,7 @@ h2 {
 
 .epslhead {
 	padding-top:0px;
-	padding-left:10px;
+	padding-left:20px;
 }
 
 /* Below code to scale website for wider desktop screens */		
