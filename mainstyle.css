@@ -24,7 +24,7 @@ background-image: url("uefablack.jpg");
   cursor: pointer;
     /* show the menu image */
   background-image: url("../menublack.png");
-	background-size:100%;
+	background-size:cover;
 }
 
 .ham:focus{
