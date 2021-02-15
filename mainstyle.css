@@ -17,7 +17,7 @@ background-image: url("uefablack.jpg");
   z-index: 1000;
 	position:absolute;
   margin-top: 45px;
-  margin-right:20px;
+  margin-right:40px;
   width: 100px;
   height: 100px;
   border: none;
@@ -56,14 +56,14 @@ margin-left: 0px;
 	border-bottom: 1px solid grey;	
 
   /* hide the menu above the screen by default */
-  transform: translateX(+100%);
+  transform: translateX(+110%);
   /* transition adds a little animation when sliding in and out the menu */
   transition: transform 0.2s ease;
 }
 
 .showNav {
   /* show the menu */
-  transform: translateX(-100%);
+  transform: translateX(-110%);
 }
 
 .navbar ul {		
@@ -185,6 +185,7 @@ h2 {
 
 .epslhead {
 	padding-top:0px;
+	padding-left:30px;
 }
 
 /* Below code to scale website for wider desktop screens */		
