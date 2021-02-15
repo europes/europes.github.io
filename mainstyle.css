@@ -23,7 +23,7 @@ background-image: url("uefablack.jpg");
   border: none;
   cursor: pointer;
     /* show the menu image */
-  background-image: url("../menunavbla.png");
+  background-image: url("../menublack.png");
 	background-size:100%;
 }
 
@@ -32,7 +32,7 @@ background-image: url("uefablack.jpg");
 }
 
 .showClose {
-  background-image: url("../crossnav.png");
+  background-image: url("../blackcross.png");
 	background-size:100%;
 	width: 55px;
   height: 55px;
