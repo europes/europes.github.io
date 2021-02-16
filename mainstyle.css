@@ -74,8 +74,7 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	text-align:left;
-	border-bottom: 1px solid white;
+	text-align:left;	
 }
 
 
@@ -84,7 +83,17 @@ margin-bottom:0px;
 	color:  white; 
 	font-family: lato, "open sans condensed", sans-serif;
 }
-	
+
+@font-face {
+        font-family: "Lato";
+        src: url('698242188-Lato-Bla.eot');
+        src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+        url('698242188-Lato-Bla.woff') format('woff'),
+        url('698242188-Lato-Bla.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
 
 
 #menu {
