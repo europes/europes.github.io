@@ -14,7 +14,7 @@ background-image: url("uefablack.jpg");
 
 .ham {
 	
- 	margin-left:9=80px;
+ 	margin-left:90px;
   /* always keep ham on top of everything */
   z-index: 1000;	
   margin-top: 50px;  
