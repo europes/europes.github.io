@@ -25,6 +25,7 @@ background-image: url("uefablack.jpg");
     /* show the menu image */
   background-image: url("../3barmenu.png");
 	background-size:100%;
+	background-repeat: no-repeat;
 }
 
 .ham:focus{
