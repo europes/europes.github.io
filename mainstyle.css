@@ -45,7 +45,7 @@ background-image: url("uefablack.jpg");
 .navbar {
 	position:absolute;
    margin-top: 185px;
-  background: black;
+  background: #1a1a1a;
 	margin-left:400px;
   width: 650px;	
   height: auto;
@@ -103,7 +103,7 @@ width:100%;
 	top:-10px;
 background-color:black;
 justify-content:space-between;
-	color:black;
+	color:#1a1a1a;
 flex-wrap:nowrap;
 flex: 1 1 auto;
 	position:fixed;
