@@ -210,10 +210,20 @@ h2 {
 	
 .epslhead {
 	
-	 height:60px;
+	 height:90px;
 	width:600px;	
 	
 }	
  
+	.ham {
+		height:60px;
+		width:50px;
+	}
+	
+	.showclose {
+		hieght:40px;
+		width:40px;
+	}
+}
 	
 	
