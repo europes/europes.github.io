@@ -67,7 +67,8 @@ background-image: url("uefablack.jpg");
 .navbar ul {		
 margin-bottom:0px;
 		margin-top:0px;
-	padding-top:0px;	
+	padding-top:0px;
+	margin-left:0px;
 }
 
 .navbar li {
@@ -76,7 +77,8 @@ margin-bottom:0px;
 	padding-bottom:10px;
 	padding-top:10px;
 	list-style-type: none;
-	text-align:left;	
+	text-align:left;
+	margin-left:0px;
 }
 
 
@@ -88,7 +90,7 @@ margin-bottom:0px;
 	text-decoration:none;
 	color:  white; 
 	font-family: lato, "open sans condensed", sans-serif;
-	margin-left:0px;
+	
 }
 
 @font-face {
@@ -201,9 +203,6 @@ h2 {
 		width:450px;
 	}
 	
-#menu {
-	position:relative;
-}
 	
 }	
  
