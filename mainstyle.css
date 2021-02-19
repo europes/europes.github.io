@@ -82,7 +82,7 @@ margin-bottom:0px;
 }
 
 
-.navbar li:hover {
+.navbar li a:hover {
 	color:blue;
 }
 
