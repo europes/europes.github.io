@@ -210,19 +210,22 @@ h2 {
 	
 .epslhead {
 	
-	 height:90px;
-	width:600px;	
+	 height:60px;
+	width:600px;
+	margin-top:0px;
 	
 }	
  
 	.ham {
 		height:60px;
 		width:50px;
+		margin-top:0px;
 	}
 	
 	.showClose {
 		hieght:40px;
 		width:40px;
+		margin-top:0px;
 	}
 }
 	
