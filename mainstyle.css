@@ -80,6 +80,10 @@ margin-bottom:0px;
 }
 
 
+.navbar li:hover {
+	background:black;
+}
+
 .navbar li a {
 	text-decoration:none;
 	color:  white; 
