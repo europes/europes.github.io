@@ -198,11 +198,14 @@ h2 {
 	}
 	
 	.navbar {
-		widht:400px;
+		width:450px;
 	}
+	
+#menu {
+	position:absolute;
 }
 	
-	
+}	
  
 	
 	
