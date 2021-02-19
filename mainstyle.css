@@ -189,9 +189,12 @@ h2 {
 
 @media(min-width: 1000px)  {
 	
-	
- 
+	.navbar li {
+		font-size:2vw;
+	}
 }
 	
-}	
+	
+ 
+	
 	
