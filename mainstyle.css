@@ -192,6 +192,10 @@ h2 {
 	.navbar li {
 		font-size:2vw;
 	}
+	
+	.navbar {
+		widht:500px;
+	}
 }
 	
 	
