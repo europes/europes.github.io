@@ -188,6 +188,8 @@ h2 {
 .epslhead {
 	padding-top:0px;
 	padding-left:20px;
+	 height:110px;
+	width:600px;
 }
 
 /* Below code to scale website for wider desktop screens */		
@@ -202,7 +204,14 @@ h2 {
 	.navbar {
 		width:450px;
 	}
+	#menu {
+		height:90px;
+	}
 	
+.epslhead {
+	
+	 height:60px;
+	width:600px;	
 	
 }	
  
