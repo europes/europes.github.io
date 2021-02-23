@@ -1,0 +1,97 @@
+<html>
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164945315-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164945315-1');
+</script>
+
+
+<title>EuroPes Super League- Efootball pes2021</title>
+
+	<link href="mainstyle.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	</head>
+
+<header>
+	<div id="menu">
+	<div class="box box2"><a href="../index.html"><img class="epslhead" src="epslheadbar.png" height="110px" width="600px"></a></div>	
+		
+	  <div class="box box1">	
+		  <button class="ham"> </button>       
+    <nav class="navbar">
+	    <ul>
+   <li style="border:none;"> <a href="../index.html">Home </a> </li>
+		    <li> <a  href="../latest.html">Latest </a> </li>
+  <li> <a  href="../data.html">Data</a></li>
+ <li><a href="../gotm/index.html">Gotm </a></li>
+ <li><a  href="../awards/index.html">Awards</a></li>
+		 <li><a  href="../transferlist.html">Transfer List </a></li>	
+		 <li> <a  href="../tactics.html">Tactics</a></li>
+		 <li><a  href="../squads.html">Squads</a></li>
+		 <li style="border-bottom:1px solid grey;"><a  href="../rules.html">Rules </a></li>
+	    </ul>
+		  </nav></div>	
+	
+</div>
+
+	
+	<script type="text/javascript" src="mainscript.js"></script>
+</header>
+
+
+<div class="central">
+	
+	 <h1 class="heading">Boca Tctical Anaylsis</h1> 
+   <hr>
+   
+   <span class="size"> AndreYoung,<i> 23<sup>th</sup> Februaru 2021. </i></span>
+   
+   <h3>An overview of Boca Juniors (managed by Collis) tactics in title winning season 3.</h3>
+   
+   <img src="../boca1.png" class="bocapics">
+    <img src="../boca2.png" class="bocapics">
+     <img src="../boca3.png" class="bocapics">
+      <img src="../boca4.png" class="bocapics">
+       <img src="../boca5.png" class="bocapics"> 
+       <img src="../boca6.png" class="bocapics">
+       
+       </div>
+       
+   
+
+	  
+	    </body>
+
+<div class="prefoot">
+		</div>
+<div class="footer">
+		<br><br><br><br>
+<p1>&copy; 2021 JMZ Web Designs </p1>
+</div> 
+	
+</html>
+  
+  
+<style type="text/css">
+
+	
+      h1.heading {
+          font-size:7vw;        
+	      color:#99ccff;
+	       text-decoration:none;
+	         }
+	  
+	  span.size {		  
+		  text-decoration:none;
+		  float:left;
+		  text-align:left;
+	font-size:2rem;
+		 	  }
