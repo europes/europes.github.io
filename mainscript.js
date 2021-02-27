@@ -16,7 +16,7 @@ menuLinks.forEach(
   }
 )
 
-var menu = document.getElementById('menu');
+var menu = document.getElementByClassName('ham');
 window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
       menu.classList.add("nav-transparent");
@@ -25,5 +25,18 @@ window.onscroll = function () {
     else {
       menu.classList.add("nav-colored");
         menu.classList.remove("nav-transparent");
+    }
+};
+
+
+var close = document.getElementByClassName('showClose');
+window.onscroll = function () {     
+    if (document.body.scrollTop >= 200 ) {   
+      close.classList.add("nav-transparent");
+        close.classList.remove("nav-colored");       
+    } 
+    else {
+      close.classList.add("nav-colored");
+        close.classList.remove("nav-transparent");
     }
 };
