@@ -30,6 +30,8 @@ background-image: url("uefablack.jpg");
 	background-repeat:no-repeat;
     background-size:cover;
 	background-position: center;	
+	position:fixed;
+	display:block;
 	
 }
 
@@ -49,6 +51,8 @@ background-image: url("uefablack.jpg");
 	margin-right:0px;
 	margin-bottom:0px;
 	z-index:500;	
+	position:fixed;
+	display:block;
 }
 
 
