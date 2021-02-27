@@ -19,8 +19,8 @@ background-image: url("uefablack.jpg");
   /* always keep ham on top of everything */
   z-index: 1000;	
   margin-top: 50px;  
-  width: auto;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border: none;
   cursor: pointer;
     /* show the menu image */
@@ -28,7 +28,7 @@ background-image: url("uefablack.jpg");
 	background-repeat:no-repeat;
     background-size:cover;
 	background-position: center;
-	position:fixed;
+	position:relative;
 	
 }
 
@@ -41,12 +41,12 @@ background-image: url("uefablack.jpg");
 	background-repeat:no-repeat;
     background-size:cover;
 	background-position: center;
-	width: auto;
+	width: 50px;
   height: 50px;
 	margin-top: 60px; 
 	margin-left:100px;
 	z-index:500;
-	position:fixed;
+	position:relative;
 }
 
 
@@ -157,9 +157,9 @@ h2 {
 
 
 
-.nav-colored { opacity:100%;}
+.nav-colored { position:relative;}
 
-.nav-transparent { opacity:80%;}
+.nav-transparent { position:fixed;}
 
 .lighttxt{ color:#cce0ff;}
 
@@ -226,12 +226,12 @@ h2 {
  
 	.ham {
 		height:60px;
-		width:50px;
+		width:60px;
 		margin-top:10px;
 	}
 	
 	.showClose {
-		hieght:40px;
+		height:40px;
 		width:40px;
 		margin-top:10px;
 	}
