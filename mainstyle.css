@@ -109,6 +109,7 @@ margin-bottom:0px;
 
 
 #menu {
+	position:absolute;
 display: flex;
 width:100%;	
 	top:-10px;
