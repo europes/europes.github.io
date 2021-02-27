@@ -16,15 +16,15 @@ menuLinks.forEach(
   }
 )
 
-var menu = document.getElementByClassName('ham');
+var ham = document.getElementByClassName('ham');
 window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
-      menu.classList.add("nav-transparent");
-        menu.classList.remove("nav-colored");       
+      ham.classList.add("fixed");
+        ham.classList.remove("relative");       
     } 
     else {
-      menu.classList.add("nav-colored");
-        menu.classList.remove("nav-transparent");
+      ham.classList.add("relative");
+        ham.classList.remove("fixed");
     }
 };
 
@@ -32,11 +32,11 @@ window.onscroll = function () {
 var close = document.getElementByClassName('showClose');
 window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
-      close.classList.add("nav-transparent");
-        close.classList.remove("nav-colored");       
+      close.classList.add("fixed");
+        close.classList.remove("relative");       
     } 
     else {
-      close.classList.add("nav-colored");
-        close.classList.remove("nav-transparent");
+      close.classList.add("realtive");
+        close.classList.remove("fixed");
     }
 };
