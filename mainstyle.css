@@ -19,8 +19,8 @@ background-image: url("uefablack.jpg");
   /* always keep ham on top of everything */
   z-index: 1000;	
   margin-top: 50px;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border: none;
   cursor: pointer;
     /* show the menu image */
@@ -30,7 +30,7 @@ background-image: url("uefablack.jpg");
 	position: fixed;
 	padding-bottom:0px;
 	padding-right:0px;
-	
+	border-radius: 25px;	
 	}
 
 .ham:focus{
@@ -41,14 +41,15 @@ background-image: url("uefablack.jpg");
   background-image: url("../whitecross.png");
 	background-repeat:no-repeat;
     background-size:cover;	
-	width: 50px;
-  height: 50px;
+	width: 70px;
+  height: 70px;
 	margin-top: 60px; 
 	margin-left:100px;
 	margin-right:0px;
 	margin-bottom:0px;
 	z-index:500;	
-	position: fixed;	
+	position: fixed;
+	border-radius: 25px;
 }
 
 
