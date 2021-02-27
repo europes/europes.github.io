@@ -16,7 +16,7 @@ menuLinks.forEach(
   }
 )
 
-var menu = document.getElementByClass('ham');
+var menu = document.getElementByClassName('ham');
 window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
       menu.classList.add("nav-transparent");
