@@ -19,13 +19,14 @@ background-image: url("uefablack.jpg");
   /* always keep ham on top of everything */
   z-index: 1000;	
   margin-top: 50px;  
-  width: 100px;
+  width: 80px;
   height: 80px;
   border: none;
   cursor: pointer;
     /* show the menu image */
   background-image: url("../3barmenu.png");
-	background-size:cover;
+	background-repeat:no-repeat;
+    background-size:contain;
 	position:fixed;
 	
 }
@@ -36,7 +37,8 @@ background-image: url("uefablack.jpg");
 
 .showClose {
   background-image: url("../blackcross.png");
-	background-size:100%;
+	background-repeat:no-repeat;
+    background-size:contain;
 	width: 60px;
   height: 60px;
 	margin-top: 60px; 
