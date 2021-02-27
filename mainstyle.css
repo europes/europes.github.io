@@ -196,7 +196,7 @@ h2 {
 /* Below code to scale website for wider desktop screens */		
 
 
-@media(min-width: 950px)  {
+@media(min-width: 1000px)  {
 	
 	.navbar li {
 		font-size:2vw;
