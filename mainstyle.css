@@ -19,7 +19,7 @@ background-image: url("uefablack.jpg");
   /* always keep ham on top of everything */
   z-index: 1000;	
   margin-top: 50px;  
-  width: 80px;
+  width: 90px;
   height: 80px;
   border: none;
   cursor: pointer;
@@ -227,13 +227,13 @@ h2 {
 	.ham {
 		height:60px;
 		width:50px;
-		margin-top:0px;
+		margin-top:10px;
 	}
 	
 	.showClose {
 		hieght:40px;
 		width:40px;
-		margin-top:0px;
+		margin-top:10px;
 	}
 }
 	
