@@ -16,7 +16,7 @@ menuLinks.forEach(
   }
 )
 
-var ham = document.getElementByClassName('ham');
+var ham = document.getElementsByClassName('ham');
 window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
       ham.classList.add("fixed");
@@ -29,7 +29,7 @@ window.onscroll = function () {
 };
 
 
-var close = document.getElementByClassName('showClose');
+var close = document.getElementsByClassName('showClose');
 window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
       close.classList.add("fixed");
