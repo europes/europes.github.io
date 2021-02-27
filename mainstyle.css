@@ -24,7 +24,7 @@ background-image: url("uefablack.jpg");
   border: none;
   cursor: pointer;
     /* show the menu image */
-  background-image: url("../3barmenu.png");
+  background-image: url("../whitemenu.png");
 	background-repeat:no-repeat;
     background-size:100% 100%;	
 	position: fixed;
@@ -38,7 +38,7 @@ background-image: url("uefablack.jpg");
 }
 
 .showClose {
-  background-image: url("../blackcross.png");
+  background-image: url("../whitecross.png");
 	background-repeat:no-repeat;
     background-size:cover;	
 	width: 50px;
