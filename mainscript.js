@@ -16,15 +16,15 @@ menuLinks.forEach(
   }
 )
 
-var ham = document.getElementsByClassName('ham');
+var hams = document.getElementsByClassName('ham');
 window.onscroll = function () {     
     if (document.body.scrollTop >= 200 ) {   
-      ham.classList.add("fixed");
-        ham.classList.remove("relative");       
+      hams.classList.add("fixed");
+        hams.classList.remove("relative");       
     } 
     else {
-      ham.classList.add("relative");
-        ham.classList.remove("fixed");
+      hams.classList.add("relative");
+        hams.classList.remove("fixed");
     }
 };
 
