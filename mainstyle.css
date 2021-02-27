@@ -27,6 +27,7 @@ background-image: url("uefablack.jpg");
   background-image: url("../3barmenu.png");
 	background-repeat:no-repeat;
     background-size:105% 105%;
+	background-position: center;
 	position:fixed;
 	
 }
@@ -39,6 +40,7 @@ background-image: url("uefablack.jpg");
   background-image: url("../blackcross.png");
 	background-repeat:no-repeat;
     background-size:105% 105%;
+	background-position: center;
 	width: 60px;
   height: 60px;
 	margin-top: 60px; 
