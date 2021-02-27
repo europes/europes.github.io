@@ -50,7 +50,7 @@ background-image: url("uefablack.jpg");
 	margin-right:0px;
 	margin-bottom:0px;
 	z-index:500;
-	position:relative;
+	position:fixed;
 }
 
 
