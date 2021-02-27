@@ -26,6 +26,7 @@ background-image: url("uefablack.jpg");
     /* show the menu image */
   background-image: url("../3barmenu.png");
 	background-size:cover;
+	position:fixed;
 	
 }
 
@@ -41,11 +42,12 @@ background-image: url("uefablack.jpg");
 	margin-top: 60px; 
 	margin-left:100px;
 	z-index:500;
+	position:fixed;
 }
 
 
 .navbar {
-	position:absolute;
+	position:fixed;
    margin-top: 185px;
   background: #1a1a1a;
 	margin-left:400px;
@@ -115,7 +117,6 @@ justify-content:space-between;
 	color:#1a1a1a;
 flex-wrap:nowrap;
 flex: 1 1 auto;
-	position:fixed;
 	height:160px;		
 	z-index:1;
 	margin-bottom:0px;
