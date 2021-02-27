@@ -30,7 +30,7 @@ background-image: url("uefablack.jpg");
 	background-repeat:no-repeat;
     background-size:cover;
 	background-position: center;
-	position:fixed;
+	position:relative;
 	
 }
 
@@ -50,7 +50,7 @@ background-image: url("uefablack.jpg");
 	margin-right:0px;
 	margin-bottom:0px;
 	z-index:500;
-	position:fixed;
+	position:relative;
 }
 
 
@@ -161,9 +161,9 @@ h2 {
 
 
 
-.nav-colored { opacity:100%;}
+.nav-colored { position:relative;}
 
-.nav-transparent { opacity:80%;}
+.nav-transparent { position:fixed;}
 
 .lighttxt{ color:#cce0ff;}
 
