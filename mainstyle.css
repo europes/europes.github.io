@@ -161,9 +161,9 @@ h2 {
 
 
 
-.nav-colored { position:relative;}
+.nav-colored { opacity:100%;}
 
-.nav-transparent { position:fixed;}
+.nav-transparent { opacity:80%;}
 
 .lighttxt{ color:#cce0ff;}
 
