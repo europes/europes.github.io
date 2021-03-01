@@ -708,11 +708,8 @@ color:white;
 	
 	
 function openMenu(evt, menuName) {
-  var i, black, mainbody ;
-  tab = document.getElementsByClassName("mainbody");
-  for (i = 0; i < tab.length; i++) {
-    tab[i].style.display = "none";
-  }
+  var i, mainbody ;
+  
   mainbody = document.getElementsByClassName("mainbody");
   for (i = 0; i < mainbody.length; i++) {
     mainbody[i].className = mainbody[i].className.replace(" active", "");
