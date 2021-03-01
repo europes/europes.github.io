@@ -212,6 +212,10 @@ background:color:grey;
 		color:white;
 }
 
+	.activate {		
+		 background-color: #668cff;		
+		color:white;
+}
 
 .tabcontent {
   display: none; 
@@ -382,7 +386,7 @@ display:none;
 
 		
 function openMenu(evt, menuName) {
-  var i, tab, tablinkshead;
+  var i, tab, tablinkshead, tablinks;
   tab = document.getElementsByClassName("tab");
   for (i = 0; i < tab.length; i++) {
     tab[i].style.display = "none";
@@ -390,14 +394,14 @@ function openMenu(evt, menuName) {
   tablinkshead = document.getElementsByClassName("tablinkshead");
   for (i = 0; i < tablinkshead.length; i++) {
     tablinkshead[i].className = tablinkshead[i].className.replace(" active", "");
-  }
-	tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
+  }	
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+  tablinks = document.getElementsByClassName("showactive");
+			element.classList.add("activation");
+			}
+			
 
 function openDiv(evt, divName) {
   var i, tabcontent, tablinks, tablinks2;
@@ -412,6 +416,8 @@ function openDiv(evt, divName) {
   document.getElementById(divName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+			
+			
 
 document.getElementById("defaultOpen").click();				
 
