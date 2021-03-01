@@ -381,7 +381,7 @@ display:none;
 
 		
 function openMenu(evt, menuName) {
-  var i, tab, tablinkshead, tabcontent, tablinks;
+  var i, tab, tablinkshead ;
   tab = document.getElementsByClassName("tab");
   for (i = 0; i < tab.length; i++) {
     tab[i].style.display = "none";
@@ -397,13 +397,7 @@ function openMenu(evt, menuName) {
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-			tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(divName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+
 			
 		
 			
