@@ -56,9 +56,9 @@
 		
 		
 <div class="tabhead">
-  <button class="tablinkshead" onclick="openMenu(event, 'sl1');openDiv(event, 'Div1');" id="defaultOpen"><img class="standout"width="250px" height="250px" src="sl1.png"></button>
-  <button class="tablinkshead" onclick="openMenu(event, 'sl2');openDiv(event, 'Div2');"><img class="standout" width="250px" height="250px" src="\images\sl2logo.png"></button>
-		<button class="tablinkshead" onclick="openMenu(event, 'sl3');openDiv(event, 'Div3');"><img class="standout" width="250px" height="250px" src="\images\sl3logo.png"></button>
+  <button class="tablinkshead" onclick="openMenu(event, 'sl1')" id="defaultOpen"><img class="standout"width="250px" height="250px" src="sl1.png"></button>
+  <button class="tablinkshead" onclick="openMenu(event, 'sl2')"><img class="standout" width="250px" height="250px" src="\images\sl2logo.png"></button>
+		<button class="tablinkshead" onclick="openMenu(event, 'sl3')"><img class="standout" width="250px" height="250px" src="\images\sl3logo.png"></button>
 </div>
 
 
@@ -69,12 +69,12 @@
 </div>
 
 <div class="tab" id="sl2">
- <button class="tablinks" onclick="openDiv(event, 'Div2')">LEAGUE TABLE</button>
+ <button class="tablinks" onclick="openDiv(event, 'Div2')" id="leaguetable2">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
 </div>
 	
 	<div class="tab" id="sl3">
-  <button class="tablinks" onclick="openDiv(event, 'Div3')">LEAGUE TABLE</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div3')" id="leaguetable3">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div6')">GOALSCORERS</button>
 </div>
 
@@ -396,11 +396,11 @@ function openMenu(evt, menuName) {
   }
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.className += " active";
-}
-
-			
-		
-			
+	
+document.getElementById("defaultOpen2").click();	
+document.getElementById("leaguetable2").click();		
+document.getElementById("leaguetable3").click();
+			}
 		
 
 
