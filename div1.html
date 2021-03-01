@@ -63,18 +63,18 @@
 
 
 <div class="tab" id="sl1">
-  <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen2">LEAGUE TABLE</button>
+  <button class="tablinks showactive" onclick="openDiv(event, 'Div1')" id="defaultOpen2">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div4')">GOALSCORERS</button>
   
 </div>
 
 <div class="tab" id="sl2">
- <button class="tablinks" onclick="openDiv(event, 'Div2')">LEAGUE TABLE</button>
+ <button class="tablinks showactive" onclick="openDiv(event, 'Div2')">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
 </div>
 	
 	<div class="tab" id="sl3">
-  <button class="tablinks" onclick="openDiv(event, 'Div3')">LEAGUE TABLE</button>
+  <button class="tablinks showactive" onclick="openDiv(event, 'Div3')">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div6')">GOALSCORERS</button>
 </div>
 
@@ -211,11 +211,13 @@ background:color:grey;
 		 background-color: #668cff;		
 		color:white;
 }
-
-	.activate {		
+	
+.activation { 
 		 background-color: #668cff;		
 		color:white;
 }
+
+
 
 .tabcontent {
   display: none; 
@@ -267,8 +269,6 @@ text-align: center;
 }
 
 
-	
-	
  
  .table {
   margin-bottom: 20px;
@@ -357,15 +357,12 @@ display:none;
 		}
 		
 .table {
-		
 		 
 		}
 		
 		.goals {
 		  vertical-align:top;
 		margin-left:20px;
-
-
 		}
 		
 		}
@@ -373,9 +370,7 @@ display:none;
 		
 		</style>
 		
-		<script>
-	  
-	 
+		<script>	 
 		
 		
 		
@@ -394,12 +389,21 @@ function openMenu(evt, menuName) {
   tablinkshead = document.getElementsByClassName("tablinkshead");
   for (i = 0; i < tablinkshead.length; i++) {
     tablinkshead[i].className = tablinkshead[i].className.replace(" active", "");
-  }	
+  }
+	tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
 			
+document.getElementByClassName("showactive").className += " activation";
+		
+			}
+			
+			}
+
 
 function openDiv(evt, divName) {
   var i, tabcontent, tablinks, tablinks2;
@@ -414,8 +418,6 @@ function openDiv(evt, divName) {
   document.getElementById(divName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-			
-			
 
 document.getElementById("defaultOpen").click();				
 
