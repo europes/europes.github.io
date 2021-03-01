@@ -63,18 +63,18 @@
 
 
 <div class="tab" id="sl1">
-  <button class="tablinks showactive" onclick="openDiv(event, 'Div1')" id="defaultOpen2">LEAGUE TABLE</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen2">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div4')">GOALSCORERS</button>
   
 </div>
 
 <div class="tab" id="sl2">
- <button class="tablinks showactive" onclick="openDiv(event, 'Div2')">LEAGUE TABLE</button>
+ <button class="tablinks" onclick="openDiv(event, 'Div2')">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div5')">GOALSCORERS</button>
 </div>
 	
 	<div class="tab" id="sl3">
-  <button class="tablinks showactive" onclick="openDiv(event, 'Div3')">LEAGUE TABLE</button>
+  <button class="tablinks" onclick="openDiv(event, 'Div3')">LEAGUE TABLE</button>
   <button class="tablinks" onclick="openDiv(event, 'Div6')">GOALSCORERS</button>
 </div>
 
@@ -404,7 +404,7 @@ function openMenu(evt, menuName) {
 
 
 function openDiv(evt, divName) {
-  var i, tabcontent, tablinks, tablinks2;
+  var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
