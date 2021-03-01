@@ -56,9 +56,9 @@
 		
 		
 <div class="tabhead">
-  <button class="tablinkshead" onclick="openMenu(event, 'sl1')" id="defaultOpen"><img class="standout"width="250px" height="250px" src="sl1.png"></button>
-  <button class="tablinkshead" onclick="openMenu(event, 'sl2')"><img class="standout" width="250px" height="250px" src="\images\sl2logo.png"></button>
-		<button class="tablinkshead" onclick="openMenu(event, 'sl3')"><img class="standout" width="250px" height="250px" src="\images\sl3logo.png"></button>
+  <button class="tablinkshead" onclick="openMenu(event, 'sl1');clicky1();" id="defaultOpen"><img class="standout"width="250px" height="250px" src="sl1.png"></button>
+  <button class="tablinkshead" onclick="openMenu(event, 'sl2');clicky2();"><img class="standout" width="250px" height="250px" src="\images\sl2logo.png"></button>
+		<button class="tablinkshead" onclick="openMenu(event, 'sl3')clicky3();"><img class="standout" width="250px" height="250px" src="\images\sl3logo.png"></button>
 </div>
 
 
@@ -396,11 +396,11 @@ function openMenu(evt, menuName) {
   }
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.className += " active";
-	
-document.getElementById("defaultOpen2").click();	
-document.getElementById("leaguetable2").click();		
-document.getElementById("leaguetable3").click();
 			}
+			
+function clicky2() {
+  document.getElementById("leaguetable2").click();
+}
 		
 
 
