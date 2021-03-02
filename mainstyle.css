@@ -16,7 +16,7 @@ body {
 	width:100%;
 	 margin: 0;	
     padding: 0;
-	margin-top:160px;
+	margin-top:0px;
 	min-height:100vh;	
 }
 
@@ -134,7 +134,7 @@ flex-wrap:nowrap;
 flex: 1 1 auto;
 	height:180px;		
 	z-index:1;
-	margin-bottom:0px;
+	margin-bottom:180px;
 	border-bottom: 2px solid grey;
 	
 }
