@@ -1,8 +1,7 @@
 html {
 	width:100%;
     margin: 0;	
-    padding: 0;
-	margin-top:80px;
+    padding: 0;	
 background-image: url("uefablack.jpg");
 		  background-size: cover;
 		background-position: center;
@@ -14,9 +13,11 @@ background-image: url("uefablack.jpg");
 	}
 
 body {
-	min-height:100vh;
-	display: flex;
-	flex-direction:column;
+	width:100%;
+	 margin: 0;	
+    padding: 0;
+	margin-top:80px;
+	min-height:100vh;	
 }
 
 .ham {
@@ -153,12 +154,7 @@ display:flex;
 	}
 	
 
-	
 
-	
-
-
-	
 h2 {
 	  font-size: 50px;  	
 	color:white;	
@@ -185,10 +181,8 @@ h2 {
 	font-size:1.5em;
      }
 		
-.prefoot {	
-			
-	 
-		height: 25px;	
+.prefoot {		 
+		height: 20px;	
 		width: 100%;	
       background-color: #989898;
 		margin-bottom:0px;
