@@ -185,6 +185,8 @@ h2 {
      }
 		
 .prefoot {	position:fixed;	 
+	bottom:0px;
+	left:0px;
 		height: 20px;	
 		width: 100%;	
       background-color: #989898;
