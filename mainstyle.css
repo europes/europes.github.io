@@ -160,7 +160,7 @@ h2 {
 
 
 .footer-container {
-	position:fixed;	 
+	position:absolute;	 
 	bottom:0px;
 	left:0px;
 	margin-top: 0px;
