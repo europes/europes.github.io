@@ -52,21 +52,19 @@
 		</div>
 	
 	<div class="central">	
-<table class="black2">
-		<tr>
-		<th class="black" onclick="openMenu(event, 'head1')" id="homeh"><p>AWARDS</p></th>
-		<th class="black" onclick="openMenu(event, 'head2')"  id="soloh">SOLO</th>
-		<th class="black" onclick="openMenu(event, 'head3')" id="div1h">DIV 1</th>
-		<th class="black" onclick="openMenu(event, 'head4')" id="div2h">DIV 2</th>
-		<th class="black" onclick="openMenu(event, 'head5')" id="div3h">DIV 3</th>
-		<th class="black" onclick="openMenu(event, 'head6')" id="cuph">CUPS</th>
-		</tr>
-		</table>
-</div>	
+		
+		<button id="defaultOpen" class="tablink" onclick="openPage('main', this)">AWARDS</button>
+<button class="tablink" onclick="openPage('solo', this)" id="defaultOpen">SOLO</button>
+<button class="tablink" onclick="openPage('div1', this)">DIV 1</button>
+<button class="tablink" onclick="openPage('div2', this)">DIV 2</button>
+		<button class="tablink" onclick="openPage('div3', this)">DIV 3</button>
+<button class="tablink" onclick="openPage('cups', this)">CUPS</button>
+
+
 		
 	 
 	
-<div class="mainbody" id="head1">	
+<div class="tabcontent" id="main">	
 	
   <h2>MAJOR AWARDS</h2>
  <table>
@@ -114,7 +112,7 @@
 	
 
 	
-<div class="mainbody" id="head2"> 
+<div class="mainbody" id="solo"> 
    
    <h2>MANAGER OF SEASON</h2>
  <table>
@@ -181,7 +179,7 @@
 
 
 
-<div class="mainbody" id="head3">	
+<div class="mainbody" id="div1">	
  <h2>SUPER LEAGUE</h2>
   <table>
 <tr>
@@ -228,7 +226,7 @@
 
 
 	
-<div class="mainbody" id="head4">	
+<div class="mainbody" id="div2">	
 
  <h2>DIVISION 2</h2>
   <table>
@@ -276,7 +274,7 @@
 
 
 
-<div class="mainbody" id="head5">
+<div class="mainbody" id="div3">
 	
  <h2>DIVISION 3</h2>
   <table>
@@ -315,7 +313,7 @@
 
 
 
-<div class="mainbody" id="head6">
+<div class="mainbody" id="cups">
 	<h1>CUP HISTORY</h1>
 		
 	
@@ -707,14 +705,21 @@ color:white;
 <script>
 	
 	
-function openMenu(evt, menuName) {
-  var i, mainbody ;
-  
-  mainbody = document.getElementsByClassName("mainbody");
-  for (i = 0; i < mainbody.length; i++) {
-    mainbody[i].className = mainbody[i].className.replace(" active", "");
+function openPage(pageName, elmnt) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-	  
-			}
+
+ 
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 	
 </script>
