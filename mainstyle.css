@@ -112,16 +112,6 @@ margin-bottom:0px;
 	
 }
 
-@font-face {
-        font-family: "Lato";
-        src: url('698242188-Lato-Bla.eot');
-        src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
-        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
-        url('698242188-Lato-Bla.woff') format('woff'),
-        url('698242188-Lato-Bla.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-}
 
 
 #menu {
@@ -164,32 +154,23 @@ h2 {
 
 
 
-.relative { position:relative;}
-
-.fixed { position:fixed;}
-
 .lighttxt{ color:#cce0ff;}
 
 .darktxt { color:black;}
 
-.footer {	
-		padding-top: 10px;	
-	   margin-top: 0px;	
-		height: 200px;	
-		width: 100%;	
-      background-color: #000033;
-	  text-align: center;
-		color:#f2f2f2;
-	font-size:1.5em;
-	margin-bottom:0px;
+
+.footer-container {
 	position:fixed;	 
 	bottom:0px;
 	left:0px;
+	margin-top: 0px;
+	width: 100%;
+	text-align: center;		
+	font-size:1.5em;
+	margin-bottom:0px;	
      }
 		
-.prefoot {	position:fixed;	 
-	left:0px;
-	bottom:200px;
+.prefoot {	
 		height: 20px;	
 		width: 100%;	
       background-color: #989898;
@@ -197,11 +178,17 @@ h2 {
 	margin-top:0px;
      }	
 
-.endarrow {
-	float:right;
-	color:  white; 	
+.footer {
+	padding-top: 10px;	   	
+		height: 200px;		
+      background-color: #000033;	  
+		color:#f2f2f2;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+
 	
-	}
 
 .epslhead {
 	padding-top:10px;
