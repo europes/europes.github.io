@@ -54,7 +54,7 @@
 		</div>
 	
 	<div class="tab">		
-		<button class="tablinks" onclick="openPage(event, 'main')">AWARDS</button>
+		<button id="defaultOpen" class="tablinks" onclick="openPage(event, 'main')">AWARDS</button>
 <button class="tablinks" onclick="openPage(event, 'solo')" id="defaultOpen">SOLO</button>
 <button class="tablinks" onclick="openPage(event, 'div1')">DIV 1</button>
 <button class="tablinks" onclick="openPage(event, 'div2')">DIV 2</button>
@@ -315,22 +315,6 @@
 	<h1>CUP HISTORY</h1>
 		
 	
-		
-<table class="black">
-		<tr>
-		<th class="black"><a href="index.html" class="links">AWARDS</a></th>
-		<th class="black"><a href="individual.html" class="links">SOLO</a></th>
-		<th class="black"><a href="div1hist.html" class="links">DIV 1</a></th>
-		<th class="black"><a href="div2hist.html" class="links">DIV 2</a></th>
-		<th class="black"><a href="div3hist.html" class="links">DIV 3</a></th>
-		<th class="black3"><p>CUPS</p></th>
-		</tr>
-		</table>
-	 
-	 <br>
-	<br>
-	
-
 	<br>
 <h2>CHAMPIONS LEAGUE</h2>
       <table>
@@ -659,7 +643,7 @@ border: 1px dotted black;
   evt.currentTarget.className += " active";
 }
 	
-	
+document.getElementById("defaultOpen").click();	
 
 
 </script>
