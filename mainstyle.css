@@ -14,7 +14,7 @@ background-image: url("uefablack.jpg");
 	}
 
 body {
-	margin-top:160px;
+	margin-top:180px;
 	width:100%;	      
 	min-height:100vh;
 	position:relative;
@@ -117,9 +117,9 @@ margin-bottom:0px;
 
 #menu {
 	position:absolute;
+	top-margin:-180px;
 display: flex;
 width:100%;	
-	top:-10px;
 background-color:#1a1a1a;
 justify-content:space-between;
 	color:#1a1a1a;
