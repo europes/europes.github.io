@@ -14,10 +14,11 @@ background-image: url("uefablack.jpg");
 
 body {
 	width:100%;
-	 margin: 0;	
-    padding: 0;
-	margin-top:0px;
-	min-height:100vh;	
+	 margin-left: 0;
+	 margin-right: 0;	
+    padding: 0;	
+	min-height:100vh;
+	margin-top:180px;
 }
 
 .ham {
@@ -134,7 +135,7 @@ flex-wrap:nowrap;
 flex: 1 1 auto;
 	height:180px;		
 	z-index:1;
-	margin-bottom:180px;
+	margin-bottom:0px;
 	border-bottom: 2px solid grey;
 	
 }
