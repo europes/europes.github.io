@@ -15,7 +15,8 @@ background-image: url("uefablack.jpg");
 
 body {
 	width:100%;	      
-	min-height:100vh;	
+	min-height:100vh;
+	margin-top:-40px;
 	}
 
 
