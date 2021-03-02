@@ -51,17 +51,15 @@
 	<h1>AWARDS HISTORY</h1>
 		</div>
 	
-	<div class="central">	
+	<div class="tab">	
 		
-		<button id="defaultOpen" class="tablink" onclick="openPage('main', this)">AWARDS</button>
-<button class="tablink" onclick="openPage('solo', this)" id="defaultOpen">SOLO</button>
-<button class="tablink" onclick="openPage('div1', this)">DIV 1</button>
-<button class="tablink" onclick="openPage('div2', this)">DIV 2</button>
-		<button class="tablink" onclick="openPage('div3', this)">DIV 3</button>
-<button class="tablink" onclick="openPage('cups', this)">CUPS</button>
+		<button id="defaultOpen" class="tablinks" onclick="openPage(event, 'main')">AWARDS</button>
+<button class="tablinks" onclick="openPage(event, 'solo')" id="defaultOpen">SOLO</button>
+<button class="tablinks" onclick="openPage(event, 'div1')">DIV 1</button>
+<button class="tablinks" onclick="openPage(event, 'div2')">DIV 2</button>
+		<button class="tablinks" onclick="openPage(event, 'div3')">DIV 3</button>
+<button class="tablinks" onclick="openPage(event, 'cups')">CUPS</button>
 	</div>
-
-		
 	 
 	
 <div class="tabcontent" id="main">	
@@ -106,8 +104,7 @@
 	<td><b>Benzema</b> <br>Procrypto/<br>S.Lisbon<br><br> </td>
 </tr>		
   </table>
-	 <br>
-  
+	 <br> 
 		</div>
 	
 
@@ -488,14 +485,43 @@
 
 
 <style type="text/css">
-
-
-	.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
+	
+	.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
 
 
 
@@ -658,21 +684,34 @@ color:white;
 <script>
 	
 	
-function openPage(pageName, elmnt) {
-  // Hide all elements with class="tabcontent" by default */
+	function openPage(evt, pageName) {
+  // Declare all variables
   var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
- 
-  // Show the specific tab content
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(pageName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+	
+	
+
 
 
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+	}
 	
 </script>
