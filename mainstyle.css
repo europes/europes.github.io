@@ -184,12 +184,12 @@ h2 {
 	margin-bottom:0px;
      }
 		
-.prefoot {		 
+.prefoot {	position:fixed;	 
 		height: 20px;	
 		width: 100%;	
       background-color: #989898;
 		margin-bottom:0px;
-	margin-top:auto;
+	margin-top:0px;
      }	
 
 .endarrow {
