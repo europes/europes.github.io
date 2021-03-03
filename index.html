@@ -46,7 +46,7 @@
 
 <body>
 
-	
+	<div class="wrapper">
 	<div class="introd">
 		
 		<p class="important1"> <span class="yellow">WELCOME to EPSL!</span><br>
@@ -85,9 +85,9 @@
 	</div>
 	
 	
-	 <h4>LEAGUE TABLES</h4>
 	<div class="center2">
 		
+	 <h4>LEAGUE TABLES</h4>
 <div class="tab" id="tables">	
   <button class="tablinks" onclick="openDiv(event, 'Div1')" id="defaultOpen"><img class="standout"width="200px" height="200px" src="sl1.png"></button>
   <button class="tablinks" onclick="openDiv(event, 'Div2')"><img class="standout" width="200px" height="200px" src="\images\sl2logo.png"></button>
@@ -109,10 +109,10 @@
 </div>
 		
 	
-	<h4>HONORS SEASON 3</h4>
+	
 	
     <div class="centerpics">	    
-		
+		<h4>HONORS SEASON 3</h4>
 	
 <div class="slideshow-container">  
   	  
@@ -135,8 +135,9 @@
 
 
 	
-	<h4>GOTM</h4>
+	
 	<div class="gif">
+		<h4>GOTM</h4>
 		<iframe src="https://giphy.com/embed/v7coVTdrQGzSwG5OO1" width="900" height="720" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 	<br>
 
@@ -165,10 +166,13 @@ Auctions and cups and goal of month competion add to the fun. Theres always some
 	<p>
 
 Occasionaly someone may leave the group so worth signing into discord and join waiting list if interested. We usually play betweeen 3 to 5 games per week. </p></div>
+	</div>
 	
-	<div class="padder"></div>
-	
-	<?php include("includes/footer.html");?>
+	<div class="padder"></div>	
+	<div class="footer-container">
+		<div class="prefoot"></div>
+		<div class="footer"><br><br><br><br><p1>&copy; 2021 JMZ Web Designs</p1></div>
+	</div>
 	
 	</div>	
 </body>
@@ -181,6 +185,12 @@ Occasionaly someone may leave the group so worth signing into discord and join w
 		
 
 <style type="text/css">
+	
+	.wrapper {
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+	}
 	
 	
 	
@@ -195,6 +205,10 @@ Occasionaly someone may leave the group so worth signing into discord and join w
 		justify-content:space-between;	
 flex-wrap:nowrap;
 flex: 1 1 auto;		
+		grid-row-start:2;
+		grid-column-end:2;
+		grid-column-start:1;
+		grid-row-end:3;
 	}
 	
 	.yellow {
@@ -246,6 +260,8 @@ font-size:3.5em;
 	height:auto;	
 	margin-top:0px;
 	margin-bottom:0px;
+	grid-column-start: 1;
+	grid-column-end:2;
 		}
 
 p.important1 {
@@ -397,6 +413,10 @@ width:95%;
 	margin-top:20px;
 	padding-top:10px;
 	border-radius:0px;
+	grid-row-start:1;
+		grid-column-end:3;
+		grid-column-start:2;
+		grid-row-end:2;
 	}
 	
 .center2 {	
@@ -406,6 +426,10 @@ width:95%;
 		text-align:center;
 		width:95%;
 	border-radius:0px 0px 30px 30px;
+	grid-row-start:2;
+		grid-column-end:3;
+		grid-column-start:2;
+		grid-row-end:3;
 	}
 		
 .holink:hover {	
@@ -449,6 +473,10 @@ width:95%;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:0px 0px 30px 30px;
+	grid-row-start:3;
+		grid-column-end:2;
+		grid-column-start:1;
+		grid-row-end:4;
 		}
 		
 .champs {
@@ -535,6 +563,10 @@ font-size: 3em;
 	padding-top:-40px;
 	margin-bottom:0px;	
 	border-radius:0px 0px 30px 30px;
+	grid-row-start:3;
+		grid-column-end:3;
+		grid-column-start:2;
+		grid-row-end:4;
 	}
 	
 a.menubox {
