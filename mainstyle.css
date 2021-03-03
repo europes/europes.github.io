@@ -120,7 +120,7 @@ margin-bottom:0px;
 
 #menu {
 	
-	margin-top:-60px;	
+	margin-top:0px;	
 display: flex;
 width:100%;	
 	margin-left:0px;
@@ -132,7 +132,7 @@ flex-wrap:nowrap;
 flex: 1 1 auto;
 	height:180px;		
 	z-index:1;
-	margin-bottom:0px;
+	margin-bottom:-60px;
 	border-bottom: 2px solid grey;	
 }
 
