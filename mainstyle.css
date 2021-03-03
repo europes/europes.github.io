@@ -190,7 +190,7 @@ h2 {
 }
 
 .padder {
-	padding-bottom:220px;
+	padding-bottom:-220px;
 	position:relative;
 }
 	
