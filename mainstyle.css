@@ -10,14 +10,14 @@ background-image: url("uefablack.jpg");
     font-family: Arial, Helvetica, sans-serif;
 	color: white;
 	font-size:16px;	
-	min-height:80vh;
+	min-height:100vh;
 	 position:absolute;
 	}
 
 body {
 	position:relative;
 	width:100%;	      
-	min-height:80vh;
+	min-height:100vh;
 	margin-top:0px;
 	margin-left:0px;
 	margin-right:0px;
@@ -132,7 +132,7 @@ flex-wrap:nowrap;
 flex: 1 1 auto;
 	height:180px;		
 	z-index:1;
-	margin-bottom:-50px;
+	margin-bottom:-55px;
 	border-bottom: 2px solid grey;	
 }
 
@@ -190,7 +190,7 @@ h2 {
 }
 
 .padder {
-	padding-bottom:220px;
+	padding-bottom:0px;
 	position:relative;
 }
 	
