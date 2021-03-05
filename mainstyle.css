@@ -146,21 +146,14 @@ display:flex;
 }
 
 .box2  {
-	width: 60%;	
+	width: 80%;	
 	margin-top:auto;
 	margin-bottom:auto;
 	margin-left:0px;
 	text-align:left;
 	}
 
-.box3 {
-	width:20%;
-margin-left:20px;	
-	margin-right:0px;
-	margin-top:auto;
-	margin-bottom:auto;
-	text-align:right;
-}
+
 	
 
 .europeshead {
@@ -172,7 +165,8 @@ margin-left:20px;
 	
 .efootlog {
 	height:50%;
-	width:auto;	
+	width:auto;
+	float:left;
 }
 
 h2 {
