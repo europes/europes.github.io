@@ -22,4 +22,5 @@ var myClasses = document.getElementsByClassName("box2");
 for (var i = 0; i < myClasses.length; i++) {
   myClasses[i].innerHTML = "<img class="efootlog" src="../efootlogo.png"><p class="europeshead">uroPES Super League</p>";
   }
+}
 
