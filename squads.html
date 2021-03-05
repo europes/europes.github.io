@@ -56,7 +56,7 @@
 		
 <br>		
 <div class="big">
-<iframe width="850" height="1000" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=A0207F94FADF2FA6%21316&authkey=%21AGQ63ULxgS6gQa8&em=2&ActiveCell='ESL%20Teams'!A1&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+<iframe frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=A0207F94FADF2FA6%21316&authkey=%21AGQ63ULxgS6gQa8&em=2&ActiveCell='ESL%20Teams'!A1&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 	</div>
 		
 		<br>
@@ -658,13 +658,23 @@ border-bottom: 2px solid black;
  }	
  
 iframe {
-
+width:850px;
+		height:1000px;
 	}
 	
 	.big {
 		text-align:center;
 		
+		
 	}
  
+	@media(min-width:1200px)
+	{
+		
+		iframe {			 
+		width=:1200px;
+		height:750px;
+	}
+	}
 
 </style>
