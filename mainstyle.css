@@ -71,21 +71,21 @@ body {
    margin-top: 10rem;
   background: #262626;
 	margin-left:0px;
-  width: 400px;	
+  width: 450px;	
   height: auto;	
 	z-index:200;		
 	margin-bottom:0px;
 	border-radius:25px;
 
   /* hide the menu above the screen by default */
-  transform: translateX(30%);
+  transform: translateX(100%);
   /* transition adds a little animation when sliding in and out the menu */
   transition: transform 0.2s ease;
 }
 
 .showNav {
   /* show the menu */
-  transform: translateX(-100%);
+  transform: translateX(-200%);
 }
 
 .navbar ul {		
