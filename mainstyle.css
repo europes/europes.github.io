@@ -69,9 +69,8 @@ body {
 .navbar {
 	position:fixed;
    margin-top: 10rem;
-  background: black;
-	border-bottom: 2px solid gray; 
-	margin-left:0px;
+  background: #404040;
+		margin-left:0px;
   width: 450px;	
   height: auto;	
 	z-index:200;		
@@ -127,7 +126,8 @@ display: flex;
 width:100%;	
 	margin-left:0px;
 	margin-right:0px;
-	background-color:#404040;
+	background-color:black;
+	border-bottom: 2px solid gray;
 justify-content:space-between;
 	color:#1a1a1a;
 flex-wrap:nowrap;
