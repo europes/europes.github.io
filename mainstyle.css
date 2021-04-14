@@ -37,7 +37,7 @@ body {
   border: none;
   cursor: pointer;
     /* show the menu image */
-  background-image: url("../whitemenu.png");
+  background-image: url("../whiteball2.png");
 	background-repeat:no-repeat;
     background-size:100% 100%;	
 	position: fixed;
