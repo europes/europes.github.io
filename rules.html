@@ -53,11 +53,11 @@
 		<hr><br><br>
 	
 	<h2> Card system</h2>
-<ul class="cards"><li>1st yellow card = Warning and a 5m transfer fund removal. </li><br>
-<li>2 yellow cards = 1 red card. </li><br>
-<li>1st red card = 3 point deduction plus 10m fine.</li><br>
-<li>2nd red card = 9 points deduction and 25m fine (4 x 5m for equivalent of 4 yellow cards plus 5m additional punishment).</li><br>
-<li>3rd red card = Removed from the league. </li><br>
+	<ul class="cards"><li>1st <span id="yellow">yellow card</span> = Warning and a 5m transfer fund removal. </li><br>
+<li><span id="yellow">2 yellow cards = <span id="red">1 red card. </span></li><br>
+<li>1st <span id="red">red card</span> = 3 point deduction plus 10m fine.</li><br>
+<li>2nd <span id="red">red card</span> = 9 points deduction and 25m fine (4 x 5m for equivalent of 4 yellow cards plus 5m additional punishment).</li><br>
+<li>3rd <span id="red">red card</span> = Removed from the league. </li><br>
 </ul>
 
 <br>
@@ -71,7 +71,7 @@
 <h2>The Rules </h2>
 <br>
 
-	<h3>1. Don’t skip opponents goals or replays</h3>.<p> You can skip your own if you wish. If an opponent skips a replay, pause and message them on discord asking them to not do it again. If it happens again then report to admins. <br>Punishment:
+	<h3>1. Don’t skip opponents goals or replays.</h3><p> You can skip your own if you wish. If an opponent skips a replay, pause and message them on discord asking them to not do it again. If it happens again then report to admins. <br>Punishment:
 </p>
 <ul><li>1st time = Admin warning.</li>
 
@@ -273,6 +273,14 @@ body {
 		
 		}
 	
+	#yellow {
+		color:yellow;
+	}
+	
+	#red {
+		color:red;
+	}
+	
 		
 .extend {
 		width:100%;
@@ -285,9 +293,9 @@ body {
 		
 .main {
 	margin-top:110px;
-		margin-left:25px;
-		margin-right:25px;
-	line-spacing:1.5;
+		margin-left:35px;
+		margin-right:35px;
+	line-height:1.5;
 	}		
 
 .centpic {
@@ -309,7 +317,7 @@ display:block;
      }
 	
 h2 {
-	  font-size: 32px;  	
+	  font-size: 200%;  	
 	color:white;
 	text-align:center;
 	}
